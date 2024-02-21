@@ -1,5 +1,3 @@
-# parser.py
-
 from bs4 import BeautifulSoup
 from src.product import Product
 
@@ -8,8 +6,9 @@ class URLParser:
     Parses product details from a given URL.
     """
     def __init__(self, url):
+        # URLParser sınıfının kurucu metodudur. Bir URL alır ve ilgili özelliklere erişim sağlar.
         self.url = url
-        self.product_list = []
+        self.product_list = []  # Her bir ürünü depolamak için bir liste oluşturulur.
 
     def parse(self, html_content):
         """
@@ -21,10 +20,11 @@ class URLParser:
         Returns:
         - list: List of Product objects.
         """
+        # HTML içeriğini BeautifulSoup kütüphanesi ile parse et
         soup = BeautifulSoup(html_content, 'html.parser')
 
         # Product Title
-        title_tag = soup.select_one('h1[data-testid="product-title"]')
+        title_tag = soup.select_one('h1[class="pr-new-br"] span')
         title = title_tag.text.strip() if title_tag else None
         print(f"Title: {title}")
 

@@ -1,7 +1,10 @@
+# email_sender.py
+
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.application import MIMEApplication
+import re
 
 
 class EmailSender:
@@ -34,6 +37,27 @@ class EmailSender:
             server.starttls()
             server.login(self.sender_email, self.sender_password)
             server.sendmail(self.sender_email, receiver_email, message.as_string())
+        # Başarı mesajını yazdır
+        print("Email sent successfully!")
 
+async def mail_sender(sender_email, sender_password, smtp_server, smtp_port):
+    while True:
+        # Kullanıcıdan alıcı e-posta adresini al
+        receiver_email = input("Enter the recipient's email address: ")
 
+        # Alıcı e-posta adresinin geçerli bir Gmail adresi olup olmadığını kontrol et
+        if re.match(r'^[a-zA-Z0-9._%+-]+@gmail\.com$', receiver_email):
+            break
+        else:
+            print("Invalid email address. Please enter a valid Gmail address.")
 
+    # Diğer işlemleri gerçekleştir
+    subject = "Web Crawler Results"
+    body = "Please find attached the results of the web crawler."
+    attachments = ["output.csv", "output.json", "output.xlsx"]
+
+    email_sender = EmailSender(sender_email, sender_password, smtp_server, smtp_port)
+    email_sender.send_email(receiver_email, subject, body, attachments)
+
+# Kullanım örneği:
+# await mail_sender("dfehmitahsin@gmail.com", "flko lpqg kzdn tioq", "smtp.gmail.com", 587)
