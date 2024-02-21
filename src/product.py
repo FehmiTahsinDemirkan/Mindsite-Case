@@ -4,6 +4,7 @@ class Product:
     """
     Represents a product with its details.
     """
+
     def __init__(self, title, price, discounted_price, main_image_url, image_urls, rating_score, review_count):
         self.title = title
         self.price = price
