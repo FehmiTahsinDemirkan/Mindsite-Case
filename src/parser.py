@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 from src.product import Product
-
+from lxml import html
+import time
 
 class TrendyolURLParser:
     """
@@ -17,23 +18,44 @@ class TrendyolURLParser:
         return "trendyol.com" in url
 
     def parse(self, html_content):
+
+        print(html_content)
         # HTML içeriğini BeautifulSoup kütüphanesi ile parse et
         soup = BeautifulSoup(html_content, 'html.parser')
+        parsed_html = html.fromstring(html_content)
 
         # Trendyol URL kontrolü
         if not self.is_trendyol_url(self.url):
             print("Error: This parser is only compatible with Trendyol URLs.")
             return self.product_list
 
+
         # Product Title
-        title_tag = soup.select_one('h1[class="pr-new-br"] span')
-        title = title_tag.text.strip() if title_tag else None
-        print(f"Title: {title}")
+        title_tag = parsed_html.xpath('//h1[@class="pr-new-br"]/span/text()') #[0].strip()
+        if not title_tag:
+            title_tag = parsed_html.xpath('//h1[@class="zLHJIGKJ"]/span/text()') #[0].strip()
+            if not title_tag:
+                title_tag = "ikisi de değil"
+        if title_tag is not str:
+            title_tag = title_tag[0].strip()
+
+
+        #title = title_tag.text.strip() if title_tag else None
+        print(f"Title: {title_tag}")
+
+
 
         # Product Price
-        price_tag = soup.select_one('span.prc-dsc')
-        price = price_tag.text.strip() if price_tag else None
-        print(f"Price: {price}")
+        price_tag = parsed_html.xpath('//span[@class="prc-dsc"]/text()')
+        if price_tag is None:
+            price_tag = parsed_html.xpath('//span[@class="FteoagkF"]/text()')
+            if price_tag is None:
+                price_tag = "ikisi de değil"
+        if price_tag is not str:
+            price_tag = price_tag[0].strip()
+
+            #price = price_tag.text.strip() if price_tag else None
+        print(f"Price: {price_tag}")
 
         # Discounted Price
         discounted_price_tag = soup.select_one('span.prc-org')
@@ -61,7 +83,7 @@ class TrendyolURLParser:
         print(f"Review Count: {review_count}")
 
         # Yeni bir Product nesnesi oluşturup product_list'e ekleyin
-        product = Product(title, price, discounted_price, main_image_url, image_urls, rating_score, review_count)
+        product = Product(title_tag, price_tag, discounted_price, main_image_url, image_urls, rating_score, review_count)
         self.product_list.append(product)
 
         # Herhangi bir return ifadesine gerek yok, çünkü product_list instance variable'ında zaten tutuluyor.
