@@ -26,6 +26,7 @@ class Crawler:
         - str: The HTML content of the page.
         """
         while True:
+            # Check if the provided URL is valid
             if not await Crawler.check_url(url):
                 url = input("Enter a valid URL: ")
                 continue
@@ -33,17 +34,17 @@ class Crawler:
             async with aiohttp.ClientSession() as session:
                 try:
                     async with session.get(url) as response:
-                        # Check the HTTP response; open a log entry if there is a timeout
+                        # Check the HTTP response; log a warning if there is a timeout
                         response.raise_for_status()
                         logging.warning(f"The HTTP response timed out: {url}")
 
-                        # Return the HTML content; open a log entry if successful
+                        # Return the HTML content; log a message if successful
                         html_content = await response.text()
                         logging.info(f"Successfully fetched data from {url}")
                         return html_content
 
                 except aiohttp.ClientError as e:
-                    # Handle operations in case of an error related to the request
+                    # Handle errors related to the request
                     logging.error(f"Error fetching {url}: {e}")
                     print("An error occurred while fetching")
 

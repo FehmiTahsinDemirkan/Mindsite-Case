@@ -12,6 +12,7 @@ from src.product import Product
 class StorageExporter:
     @staticmethod
     def export_json(data: List['Product'], filename: str, append: bool = False):
+        # Export data to a JSON file.
         mode = 'a' if append else 'w'
         try:
             with open(filename, mode, encoding='utf-8') as file:
@@ -24,6 +25,7 @@ class StorageExporter:
 
     @staticmethod
     def export_csv(data: List['Product'], filename: str, append: bool = False):
+        # Export data to a CSV file.
         mode = 'a' if append else 'w'
         keys = data[0].__dict__.keys() if data else []
         try:
@@ -38,6 +40,7 @@ class StorageExporter:
 
     @staticmethod
     def export_excel(data: List['Product'], filename: str, append: bool = False):
+        # Export data to an Excel file using Pandas.
         mode = 'a' if append else 'w'
         try:
             if append and os.path.exists(filename):
@@ -53,6 +56,7 @@ class StorageExporter:
 
     @staticmethod
     def serialize_product(obj):
+        # Custom serialization method to convert Product objects to a dictionary.
         if isinstance(obj, Product):
             return obj.__dict__
         raise TypeError(f"Object of type {obj.__class__.__name__} is not JSON serializable")

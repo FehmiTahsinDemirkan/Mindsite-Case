@@ -56,3 +56,25 @@
 2024-02-23 00:45:49,942 - INFO - Successfully fetched data from https://www.n11.com/urun/kadin-siyah-oversize-cizgili-yarim-balikci-yaka-triko-kazak-45390473?magaza=bejna
 2024-02-23 00:47:59,730 - WARNING - The HTTP response timed out: https://www.n11.com/urun/tp-link-tapo-c211-2k-3-mp-yatay-dikey-wi-fi-ev-guvenlik-kamerasi-hafiza-karti-46377738?magaza=intros
 2024-02-23 00:48:04,653 - INFO - Successfully fetched data from https://www.n11.com/urun/tp-link-tapo-c211-2k-3-mp-yatay-dikey-wi-fi-ev-guvenlik-kamerasi-hafiza-karti-46377738?magaza=intros
+2024-02-23 02:39:35,799 - WARNING - The HTTP response timed out: https://www.n11.com/urun/kadin-siyah-oversize-cizgili-yarim-balikci-yaka-triko-kazak-45390473?magaza=bejna#unf-review
+2024-02-23 02:39:35,864 - INFO - Successfully fetched data from https://www.n11.com/urun/kadin-siyah-oversize-cizgili-yarim-balikci-yaka-triko-kazak-45390473?magaza=bejna#unf-review
+2024-02-23 02:39:36,282 - WARNING - The HTTP response timed out: https://www.n11.com/urun/violet-90-litre-cift-gozlu-camasir-sepeti-gri-beyaz-5324327?magaza=turuncuelma43
+2024-02-23 02:39:36,485 - INFO - Successfully fetched data from https://www.n11.com/urun/violet-90-litre-cift-gozlu-camasir-sepeti-gri-beyaz-5324327?magaza=turuncuelma43
+2024-02-23 02:39:36,726 - WARNING - The HTTP response timed out: https://www.n11.com/urun/amazfit-active-akilli-saat-amazfit-turkiye-garantili-47510725?magaza=mistore
+2024-02-23 02:39:36,792 - INFO - Successfully fetched data from https://www.n11.com/urun/amazfit-active-akilli-saat-amazfit-turkiye-garantili-47510725?magaza=mistore
+2024-02-23 02:39:37,260 - WARNING - The HTTP response timed out: https://www.trendyol.com/bargello/709-erkek-50-ml-parfum-edp-oriental-p-41194137?boutiqueId=61&merchantId=138065&sav=true
+2024-02-23 02:39:37,323 - INFO - Successfully fetched data from https://www.trendyol.com/bargello/709-erkek-50-ml-parfum-edp-oriental-p-41194137?boutiqueId=61&merchantId=138065&sav=true
+2024-02-23 02:43:51,968 - WARNING - The HTTP response timed out: https://www.n11.com/urun/violet-90-litre-cift-gozlu-camasir-sepeti-gri-beyaz-5324327?magaza=turuncuelma43
+2024-02-23 02:43:52,005 - INFO - Successfully fetched data from https://www.n11.com/urun/violet-90-litre-cift-gozlu-camasir-sepeti-gri-beyaz-5324327?magaza=turuncuelma43
+2024-02-23 02:45:49,442 - ERROR - Invalid URL: Please enter a valid HTTP or HTTPS URL. Invalid URL: asfasg
+2024-02-23 02:45:55,013 - ERROR - Invalid URL: Please enter a valid HTTP or HTTPS URL. Invalid URL: www.google.com
+2024-02-23 02:46:03,519 - ERROR - Error fetching https://docs.google.com/document/d/1-Q4JxXnCLCU8ejsbwrtLoVY_ygBOtVkaeLJnFGpNOLc/edit: 401, message='Unauthorized', url=URL('https://docs.google.com/document/d/1-Q4JxXnCLCU8ejsbwrtLoVY_ygBOtVkaeLJnFGpNOLc/edit')
+2024-02-23 02:46:03,519 - ERROR - An unexpected error occurred.
+Traceback (most recent call last):
+  File "C:\Users\fehmi\Mindsite_Case\src\crawler.py", line 37, in fetch
+    response.raise_for_status()
+  File "C:\Users\fehmi\Mindsite_Case\venv\Lib\site-packages\aiohttp\client_reqrep.py", line 1060, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 401, message='Unauthorized', url=URL('https://docs.google.com/document/d/1-Q4JxXnCLCU8ejsbwrtLoVY_ygBOtVkaeLJnFGpNOLc/edit')
+2024-02-23 02:46:16,550 - WARNING - The HTTP response timed out: https://github.com/FehmiTahsinDemirkan/Mindsite-Case/tree/master/src
+2024-02-23 02:46:16,550 - INFO - Successfully fetched data from https://github.com/FehmiTahsinDemirkan/Mindsite-Case/tree/master/src
