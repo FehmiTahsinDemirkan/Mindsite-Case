@@ -5,7 +5,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.application import MIMEApplication
 import re
-
+import logging
 
 class EmailSender:
     def __init__(self, sender_email, sender_password, smtp_server, smtp_port):
@@ -14,7 +14,7 @@ class EmailSender:
         self.smtp_server = smtp_server
         self.smtp_port = smtp_port
 
-    def send_email(self, receiver_email, subject, body, attachments=None):
+    async def send_email(self, receiver_email, subject, body, attachments=None):
         # Set up the MIME
         message = MIMEMultipart()
         message["From"] = self.sender_email
@@ -37,27 +37,20 @@ class EmailSender:
             server.starttls()
             server.login(self.sender_email, self.sender_password)
             server.sendmail(self.sender_email, receiver_email, message.as_string())
+
         # Başarı mesajını yazdır
         print("Email sent successfully!")
 
-async def mail_sender(sender_email, sender_password, smtp_server, smtp_port):
-    while True:
-        # Kullanıcıdan alıcı e-posta adresini al
-        receiver_email = input("Enter the recipient's email address: ")
+    async def send_crawl_success_email(self, receiver_email):
+        subject = "Crawl Process Successful"
+        body = "The crawl process has been completed successfully."
+        await self.send_email(receiver_email, subject, body)
 
-        # Alıcı e-posta adresinin geçerli bir Gmail adresi olup olmadığını kontrol et
-        if re.match(r'^[a-zA-Z0-9._%+-]+@gmail\.com$', receiver_email):
-            break
-        else:
-            print("Invalid email address. Please enter a valid Gmail address.")
+    async def send_exported_data_email(self, receiver_email, attachments):
+        subject = "Exported Data"
+        body = "Please find attached the results of the web crawler."
+        await self.send_email(receiver_email, subject, body, attachments)
 
-    # Diğer işlemleri gerçekleştir
-    subject = "Web Crawler Results"
-    body = "Please find attached the results of the web crawler."
-    attachments = ["output.csv", "output.json", "output.xlsx"]
-
-    email_sender = EmailSender(sender_email, sender_password, smtp_server, smtp_port)
-    email_sender.send_email(receiver_email, subject, body, attachments)
-
-# Kullanım örneği:
-# await mail_sender("dfehmitahsin@gmail.com", "flko lpqg kzdn tioq", "smtp.gmail.com", 587)
+    @classmethod
+    def send_crawler_finished_email(cls, receiver_email):
+        cls.send_email(receiver_email, "Crawler Finished", "The crawler has finished its job.")

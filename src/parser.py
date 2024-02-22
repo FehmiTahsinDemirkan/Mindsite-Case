@@ -1,10 +1,12 @@
 from bs4 import BeautifulSoup
 from src.product import Product
 
+
 class URLParser:
     """
     Parses product details from a given URL.
     """
+
     def __init__(self, url):
         # URLParser sınıfının kurucu metodudur. Bir URL alır ve ilgili özelliklere erişim sağlar.
         self.url = url
