@@ -1,11 +1,11 @@
-# email_sender.py
-
+import re
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.application import MIMEApplication
-import re
-import logging
+import pandas as pd
+from tabulate import tabulate
+
 
 class EmailSender:
     def __init__(self, sender_email, sender_password, smtp_server, smtp_port):
@@ -14,7 +14,16 @@ class EmailSender:
         self.smtp_server = smtp_server
         self.smtp_port = smtp_port
 
+    def _is_valid_gmail_address(self, email):
+        # Gmail adresi kontrolü için basit bir regex
+        pattern = re.compile(r"[a-zA-Z0-9_.+-]+@gmail\.com$")
+        return bool(pattern.match(email))
+
     async def send_email(self, receiver_email, subject, body, attachments=None):
+        while not self._is_valid_gmail_address(receiver_email):
+            print("Error: Please enter a valid Gmail address.")
+            receiver_email = input("Enter the recipient's Gmail address: ")
+
         # Set up the MIME
         message = MIMEMultipart()
         message["From"] = self.sender_email
@@ -38,19 +47,32 @@ class EmailSender:
             server.login(self.sender_email, self.sender_password)
             server.sendmail(self.sender_email, receiver_email, message.as_string())
 
-        # Başarı mesajını yazdır
-        print("Email sent successfully!")
-
     async def send_crawl_success_email(self, receiver_email):
+        while not self._is_valid_gmail_address(receiver_email):
+            print("Error: Please enter a valid Gmail address.")
+            receiver_email = input("Enter your Gmail address: ")
+
         subject = "Crawl Process Successful"
         body = "The crawl process has been completed successfully."
         await self.send_email(receiver_email, subject, body)
+        print("Crawl Process Mail Sent")
 
-    async def send_exported_data_email(self, receiver_email, attachments):
+    async def send_exported_data_email(self, receiver_email, product_data, attachments=None):
         subject = "Exported Data"
-        body = "Please find attached the results of the web crawler."
-        await self.send_email(receiver_email, subject, body, attachments)
+        body = self._create_html_table(product_data)
 
-    @classmethod
-    def send_crawler_finished_email(cls, receiver_email):
-        cls.send_email(receiver_email, "Crawler Finished", "The crawler has finished its job.")
+        await self.send_email(receiver_email, subject, body, attachments)
+        print("Exported Data Mail Sent")
+
+    def _create_html_table(self, product_data):
+        # Veriyi bir Pandas DataFrame'e dönüştür
+        df = pd.DataFrame(product_data)
+
+        # HTML tablosu oluşturmak için tabulate kullan
+        html_table = tabulate(df, headers='keys', tablefmt='html', showindex=False)
+
+        # HTML etiketlerini temizle
+        html_table_cleaned = re.sub(r'<.*?>', '', html_table)
+
+        # E-posta gövdesine eklemek üzere biçimlendirilmiş HTML tablosunu döndür
+        return f"<html><body><p>Below is the exported data in a table format:</p>{html_table_cleaned}</body></html>"

@@ -40,7 +40,6 @@ class Crawler:
                         # Return the HTML content; open a log entry if successful
                         html_content = await response.text()
                         logging.info(f"Successfully fetched data from {url}")
-                        print("Successfully fetched the data ")
                         return html_content
 
                 except aiohttp.ClientError as e:

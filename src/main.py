@@ -14,14 +14,25 @@ async def main():
     while True:
         url = input("Enter the URL: ")
         html_content = await crawler_instance.fetch(url)
-        print("\nProduct Details : \n")
+
 
         if html_content:
-            url_parser = parser.URLParser(url)
+            # Trendyol URL kontrolü
+            if "trendyol.com" in url:
+                print("\nProduct Details : \n")
+                url_parser = parser.TrendyolURLParser(url)
+            # N11 URL kontrolü
+            elif "n11.com" in url:
+                print("\nProduct Details : \n")
+                url_parser = parser.N11URLParser(url)
+            else:
+                print("Error: Unsupported website. Please enter a valid Trendyol or N11 URL.")
+                continue
+
             product_list = url_parser.parse(html_content)
             all_products.extend(product_list)
 
-        user_decision = input("\nDo you want to continue? (y/n): \n")
+        user_decision = input("\nDo you want to continue? (y/n):")
         if user_decision.lower() != 'y':
             user_email = input("Enter the recipient's email address: ")
             break
@@ -39,8 +50,8 @@ async def main():
     await email_sender.send_crawl_success_email(receiver_email="fehmitahsindemirkan@gmail.com")
 
     # Export işlemi sonucunda kullanıcının girdiği mail adresine dosyaları gönderen mail gönderme
-    await email_sender.send_exported_data_email(receiver_email=user_email,
-                                                attachments=["output.json", "output.csv", "output.xlsx"])
+    await email_sender.send_exported_data_email(receiver_email= user_email, product_data=all_products,
+                                                attachments=['output.json', 'output.csv', 'output.xlsx'])
 
 
 if __name__ == "__main__":
