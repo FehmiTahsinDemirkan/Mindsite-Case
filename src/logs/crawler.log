@@ -1,288 +1,58 @@
-2024-02-22 15:40:11,047 - WARNING - The HTTP response timed out: https://www.n11.com/urun/samsung-ls24ag300nrxuf-24-1-ms-144-hz-full-hd-va-monitor-41068884?magaza=gamers-arena
-2024-02-22 15:40:11,048 - INFO - Successfully fetched data from https://www.n11.com/urun/samsung-ls24ag300nrxuf-24-1-ms-144-hz-full-hd-va-monitor-41068884?magaza=gamers-arena
-2024-02-22 15:40:36,777 - WARNING - The HTTP response timed out: https://www.n11.com/urun/sare-by-kasmir-hali-dijital-yikanabilir-kaymaz-amy-p-80x100-cm-21003034259-49175268?magaza=karacahome
-2024-02-22 15:40:36,777 - INFO - Successfully fetched data from https://www.n11.com/urun/sare-by-kasmir-hali-dijital-yikanabilir-kaymaz-amy-p-80x100-cm-21003034259-49175268?magaza=karacahome
-2024-02-22 15:40:53,279 - WARNING - The HTTP response timed out: https://www.n11.com/urun/karaca-pro-multimax-6-in-1-cok-amacli-mutfak-robotu-46083940?magaza=karacazuccaciye
-2024-02-22 15:40:53,784 - INFO - Successfully fetched data from https://www.n11.com/urun/karaca-pro-multimax-6-in-1-cok-amacli-mutfak-robotu-46083940?magaza=karacazuccaciye
-2024-02-22 15:41:33,862 - WARNING - The HTTP response timed out: https://www.n11.com/urun/big-king-siyah-supersoft-triko-erkek-spor-ayakkabi-24171692?magaza=bigking
-2024-02-22 15:41:33,862 - INFO - Successfully fetched data from https://www.n11.com/urun/big-king-siyah-supersoft-triko-erkek-spor-ayakkabi-24171692?magaza=bigking
-2024-02-22 15:43:15,411 - WARNING - The HTTP response timed out: https://www.n11.com/urun/big-king-siyah-supersoft-triko-erkek-spor-ayakkabi-24171692?magaza=bigking
-2024-02-22 15:43:15,412 - INFO - Successfully fetched data from https://www.n11.com/urun/big-king-siyah-supersoft-triko-erkek-spor-ayakkabi-24171692?magaza=bigking
-2024-02-22 15:43:24,803 - WARNING - The HTTP response timed out: https://www.n11.com/urun/karaca-pro-multimax-6-in-1-cok-amacli-mutfak-robotu-46083940?magaza=karacazuccaciye
-2024-02-22 15:43:24,883 - INFO - Successfully fetched data from https://www.n11.com/urun/karaca-pro-multimax-6-in-1-cok-amacli-mutfak-robotu-46083940?magaza=karacazuccaciye
-2024-02-22 15:43:37,194 - WARNING - The HTTP response timed out: https://www.n11.com/urun/karaca-pro-multimax-6-in-1-cok-amacli-mutfak-robotu-46083940?magaza=karacazuccaciye
-2024-02-22 15:43:37,226 - INFO - Successfully fetched data from https://www.n11.com/urun/karaca-pro-multimax-6-in-1-cok-amacli-mutfak-robotu-46083940?magaza=karacazuccaciye
-2024-02-22 15:44:54,100 - WARNING - The HTTP response timed out: https://www.n11.com/urun/big-king-siyah-supersoft-triko-erkek-spor-ayakkabi-24171692?magaza=bigking
-2024-02-22 15:44:54,106 - INFO - Successfully fetched data from https://www.n11.com/urun/big-king-siyah-supersoft-triko-erkek-spor-ayakkabi-24171692?magaza=bigking
-2024-02-22 15:45:10,515 - WARNING - The HTTP response timed out: https://www.n11.com/urun/big-king-siyah-supersoft-triko-erkek-spor-ayakkabi-24171692?magaza=bigking
-2024-02-22 15:45:10,516 - INFO - Successfully fetched data from https://www.n11.com/urun/big-king-siyah-supersoft-triko-erkek-spor-ayakkabi-24171692?magaza=bigking
-2024-02-22 15:46:23,610 - WARNING - The HTTP response timed out: https://www.n11.com/urun/big-king-siyah-supersoft-triko-erkek-spor-ayakkabi-24171692?magaza=bigking
-2024-02-22 15:46:23,610 - INFO - Successfully fetched data from https://www.n11.com/urun/big-king-siyah-supersoft-triko-erkek-spor-ayakkabi-24171692?magaza=bigking
-2024-02-22 15:46:58,974 - WARNING - The HTTP response timed out: https://www.n11.com/urun/porsima-0047-90-l-cift-gozlu-etiketli-camasir-sepeti-siyah-beyaz-46615753?magaza=turuncuelma43
-2024-02-22 15:46:58,997 - INFO - Successfully fetched data from https://www.n11.com/urun/porsima-0047-90-l-cift-gozlu-etiketli-camasir-sepeti-siyah-beyaz-46615753?magaza=turuncuelma43
-2024-02-22 15:49:57,685 - WARNING - The HTTP response timed out: https://www.n11.com/urun/porsima-0047-90-l-cift-gozlu-etiketli-camasir-sepeti-siyah-beyaz-46615753?magaza=turuncuelma43
-2024-02-22 15:49:57,685 - INFO - Successfully fetched data from https://www.n11.com/urun/porsima-0047-90-l-cift-gozlu-etiketli-camasir-sepeti-siyah-beyaz-46615753?magaza=turuncuelma43
-2024-02-22 15:51:46,800 - WARNING - The HTTP response timed out: https://www.n11.com/urun/porsima-0047-90-l-cift-gozlu-etiketli-camasir-sepeti-siyah-beyaz-46615753?magaza=turuncuelma43
-2024-02-22 15:51:46,811 - INFO - Successfully fetched data from https://www.n11.com/urun/porsima-0047-90-l-cift-gozlu-etiketli-camasir-sepeti-siyah-beyaz-46615753?magaza=turuncuelma43
-2024-02-22 15:54:30,938 - WARNING - The HTTP response timed out: https://www.n11.com/urun/porsima-0047-90-l-cift-gozlu-etiketli-camasir-sepeti-siyah-beyaz-46615753?magaza=turuncuelma43
-2024-02-22 15:54:30,939 - INFO - Successfully fetched data from https://www.n11.com/urun/porsima-0047-90-l-cift-gozlu-etiketli-camasir-sepeti-siyah-beyaz-46615753?magaza=turuncuelma43
-2024-02-22 15:57:06,258 - ERROR - Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
-handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
-Traceback (most recent call last):
-  File "C:\Users\fehmi\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
-    return runner.run(main)
-           ^^^^^^^^^^^^^^^^
-  File "C:\Users\fehmi\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
-    return self._loop.run_until_complete(task)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\fehmi\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 685, in run_until_complete
-    return future.result()
-           ^^^^^^^^^^^^^^^
-  File "C:\Users\fehmi\Mindsite_Case\src\main.py", line 35, in main
-    user_decision = input("\nDo you want to continue? (y/n):")
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "<frozen codecs>", line 322, in decode
-UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\fehmi\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
-    self._context.run(self._callback, *self._args)
-  File "C:\Users\fehmi\AppData\Local\Programs\Python\Python312\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
-    self._sock.shutdown(socket.SHUT_RDWR)
-ConnectionResetError: [WinError 10054] Varolan bir baðlantý uzaktaki bir ana bilgisayar tarafýndan zorla kapatýldý
-2024-02-22 15:57:20,513 - WARNING - The HTTP response timed out: https://www.n11.com/urun/big-king-siyah-supersoft-triko-erkek-spor-ayakkabi-24171692?magaza=bigking,
-2024-02-22 15:57:21,583 - INFO - Successfully fetched data from https://www.n11.com/urun/big-king-siyah-supersoft-triko-erkek-spor-ayakkabi-24171692?magaza=bigking,
-2024-02-22 15:57:42,142 - WARNING - The HTTP response timed out: https://www.n11.com/urun/violet-90-litre-cift-gozlu-camasir-sepeti-gri-beyaz-5324327?magaza=turuncuelma43
-2024-02-22 15:57:42,178 - INFO - Successfully fetched data from https://www.n11.com/urun/violet-90-litre-cift-gozlu-camasir-sepeti-gri-beyaz-5324327?magaza=turuncuelma43
-2024-02-22 15:58:54,067 - WARNING - The HTTP response timed out: https://www.n11.com/urun/violet-90-litre-cift-gozlu-camasir-sepeti-gri-beyaz-5324327?magaza=turuncuelma43
-2024-02-22 15:58:54,068 - INFO - Successfully fetched data from https://www.n11.com/urun/violet-90-litre-cift-gozlu-camasir-sepeti-gri-beyaz-5324327?magaza=turuncuelma43
-2024-02-22 15:59:23,657 - WARNING - The HTTP response timed out: https://www.n11.com/urun/caterpillar-colorado-erkek-kahverengi-nubuk-bot-637-44545065?magaza=yesilkundura
-2024-02-22 15:59:23,681 - INFO - Successfully fetched data from https://www.n11.com/urun/caterpillar-colorado-erkek-kahverengi-nubuk-bot-637-44545065?magaza=yesilkundura
-2024-02-22 16:00:46,424 - WARNING - The HTTP response timed out: https://www.n11.com/urun/caterpillar-colorado-erkek-kahverengi-nubuk-bot-637-44545065?magaza=yesilkundura
-2024-02-22 16:00:46,425 - INFO - Successfully fetched data from https://www.n11.com/urun/caterpillar-colorado-erkek-kahverengi-nubuk-bot-637-44545065?magaza=yesilkundura
-2024-02-22 16:07:42,457 - WARNING - The HTTP response timed out: https://www.n11.com/urun/caterpillar-colorado-erkek-kahverengi-nubuk-bot-637-44545065?magaza=yesilkundura
-2024-02-22 16:07:42,474 - INFO - Successfully fetched data from https://www.n11.com/urun/caterpillar-colorado-erkek-kahverengi-nubuk-bot-637-44545065?magaza=yesilkundura
-2024-02-22 16:10:13,140 - WARNING - The HTTP response timed out: https://www.n11.com/urun/caterpillar-colorado-erkek-kahverengi-nubuk-bot-637-44545065?magaza=yesilkundura
-2024-02-22 16:10:13,140 - INFO - Successfully fetched data from https://www.n11.com/urun/caterpillar-colorado-erkek-kahverengi-nubuk-bot-637-44545065?magaza=yesilkundura
-2024-02-22 16:10:37,834 - WARNING - The HTTP response timed out: https://www.n11.com/urun/skechers-erkek-gri-spor-ayakkabi-894115tk-char-24334564?magaza=skechers
-2024-02-22 16:10:37,855 - INFO - Successfully fetched data from https://www.n11.com/urun/skechers-erkek-gri-spor-ayakkabi-894115tk-char-24334564?magaza=skechers
-2024-02-22 16:13:38,869 - ERROR - Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
-handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
-Traceback (most recent call last):
-  File "C:\Users\fehmi\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
-    return runner.run(main)
-           ^^^^^^^^^^^^^^^^
-  File "C:\Users\fehmi\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
-    return self._loop.run_until_complete(task)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\fehmi\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 685, in run_until_complete
-    return future.result()
-           ^^^^^^^^^^^^^^^
-  File "C:\Users\fehmi\Mindsite_Case\src\main.py", line 35, in main
-    user_decision = input("\nDo you want to continue? (y/n):")
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "<frozen codecs>", line 322, in decode
-UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\fehmi\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
-    self._context.run(self._callback, *self._args)
-  File "C:\Users\fehmi\AppData\Local\Programs\Python\Python312\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
-    self._sock.shutdown(socket.SHUT_RDWR)
-ConnectionResetError: [WinError 10054] Varolan bir baðlantý uzaktaki bir ana bilgisayar tarafýndan zorla kapatýldý
-2024-02-22 16:13:44,810 - WARNING - The HTTP response timed out: https://www.n11.com/urun/caterpillar-colorado-erkek-kahverengi-nubuk-bot-637-44545065?magaza=yesilkundura
-2024-02-22 16:13:44,812 - INFO - Successfully fetched data from https://www.n11.com/urun/caterpillar-colorado-erkek-kahverengi-nubuk-bot-637-44545065?magaza=yesilkundura
-2024-02-22 19:18:22,448 - WARNING - The HTTP response timed out: https://www.trendyol.com/gant/kadin-kahverengi-regular-fit-fermuarli-sweatshirt-p-782370260?boutiqueId=61&merchantId=4588&filterOverPriceListings=false&sav=true
-2024-02-22 19:18:22,475 - INFO - Successfully fetched data from https://www.trendyol.com/gant/kadin-kahverengi-regular-fit-fermuarli-sweatshirt-p-782370260?boutiqueId=61&merchantId=4588&filterOverPriceListings=false&sav=true
-2024-02-22 19:18:50,800 - WARNING - The HTTP response timed out: https://www.n11.com/urun/zolx-ekran-temizleme-seti-250-ml-mikrofiber-bez-40152409?magaza=zolx
-2024-02-22 19:18:50,815 - INFO - Successfully fetched data from https://www.n11.com/urun/zolx-ekran-temizleme-seti-250-ml-mikrofiber-bez-40152409?magaza=zolx
-2024-02-22 19:26:31,423 - WARNING - The HTTP response timed out: https://www.trendyol.com/gant/kadin-kahverengi-regular-fit-fermuarli-sweatshirt-p-782370260?boutiqueId=61&merchantId=4588&filterOverPriceListings=false&sav=true
-2024-02-22 19:26:31,483 - INFO - Successfully fetched data from https://www.trendyol.com/gant/kadin-kahverengi-regular-fit-fermuarli-sweatshirt-p-782370260?boutiqueId=61&merchantId=4588&filterOverPriceListings=false&sav=true
-2024-02-22 19:27:25,080 - WARNING - The HTTP response timed out: https://www.trendyol.com/gant/kadin-kahverengi-regular-fit-fermuarli-sweatshirt-p-782370260?boutiqueId=61&merchantId=4588&filterOverPriceListings=false&sav=true
-2024-02-22 19:27:25,107 - INFO - Successfully fetched data from https://www.trendyol.com/gant/kadin-kahverengi-regular-fit-fermuarli-sweatshirt-p-782370260?boutiqueId=61&merchantId=4588&filterOverPriceListings=false&sav=true
-2024-02-22 19:31:10,217 - WARNING - The HTTP response timed out: https://www.trendyol.com/gant/kadin-kahverengi-regular-fit-fermuarli-sweatshirt-p-782370260?boutiqueId=61&merchantId=4588&filterOverPriceListings=false&sav=true
-2024-02-22 19:31:10,295 - INFO - Successfully fetched data from https://www.trendyol.com/gant/kadin-kahverengi-regular-fit-fermuarli-sweatshirt-p-782370260?boutiqueId=61&merchantId=4588&filterOverPriceListings=false&sav=true
-2024-02-22 19:31:50,247 - WARNING - The HTTP response timed out: https://www.trendyol.com/gant/kadin-kahverengi-regular-fit-fermuarli-sweatshirt-p-782370260?boutiqueId=61&merchantId=4588&filterOverPriceListings=false&sav=true
-2024-02-22 19:31:50,278 - INFO - Successfully fetched data from https://www.trendyol.com/gant/kadin-kahverengi-regular-fit-fermuarli-sweatshirt-p-782370260?boutiqueId=61&merchantId=4588&filterOverPriceListings=false&sav=true
-2024-02-22 19:34:26,890 - WARNING - The HTTP response timed out: https://www.trendyol.com/gant/kadin-kahverengi-regular-fit-fermuarli-sweatshirt-p-782370260?boutiqueId=61&merchantId=4588&filterOverPriceListings=false&sav=true
-2024-02-22 19:34:26,961 - INFO - Successfully fetched data from https://www.trendyol.com/gant/kadin-kahverengi-regular-fit-fermuarli-sweatshirt-p-782370260?boutiqueId=61&merchantId=4588&filterOverPriceListings=false&sav=true
-2024-02-22 19:34:52,766 - WARNING - The HTTP response timed out: https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 19:34:52,826 - INFO - Successfully fetched data from https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 19:38:12,375 - WARNING - The HTTP response timed out: https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 19:38:12,620 - INFO - Successfully fetched data from https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 19:38:28,560 - WARNING - The HTTP response timed out: https://www.trendyol.com/gant/kadin-kahverengi-regular-fit-fermuarli-sweatshirt-p-782370260?boutiqueId=61&merchantId=4588&filterOverPriceListings=false&sav=true
-2024-02-22 19:38:28,585 - INFO - Successfully fetched data from https://www.trendyol.com/gant/kadin-kahverengi-regular-fit-fermuarli-sweatshirt-p-782370260?boutiqueId=61&merchantId=4588&filterOverPriceListings=false&sav=true
-2024-02-22 19:38:53,847 - WARNING - The HTTP response timed out: https://www.trendyol.com/gant/kadin-kahverengi-regular-fit-fermuarli-sweatshirt-p-782370260?boutiqueId=61&merchantId=4588&filterOverPriceListings=false&sav=true
-2024-02-22 19:38:53,890 - INFO - Successfully fetched data from https://www.trendyol.com/gant/kadin-kahverengi-regular-fit-fermuarli-sweatshirt-p-782370260?boutiqueId=61&merchantId=4588&filterOverPriceListings=false&sav=true
-2024-02-22 19:39:17,390 - WARNING - The HTTP response timed out: https://www.trendyol.com/gant/kadin-kahverengi-regular-fit-fermuarli-sweatshirt-p-782370260?boutiqueId=61&merchantId=4588&filterOverPriceListings=false&sav=true
-2024-02-22 19:39:17,420 - INFO - Successfully fetched data from https://www.trendyol.com/gant/kadin-kahverengi-regular-fit-fermuarli-sweatshirt-p-782370260?boutiqueId=61&merchantId=4588&filterOverPriceListings=false&sav=true
-2024-02-22 19:43:15,747 - WARNING - The HTTP response timed out: https://www.trendyol.com/gant/kadin-kahverengi-regular-fit-fermuarli-sweatshirt-p-782370260?boutiqueId=61&merchantId=4588&filterOverPriceListings=false&sav=true
-2024-02-22 19:43:15,783 - INFO - Successfully fetched data from https://www.trendyol.com/gant/kadin-kahverengi-regular-fit-fermuarli-sweatshirt-p-782370260?boutiqueId=61&merchantId=4588&filterOverPriceListings=false&sav=true
-2024-02-22 19:43:44,791 - WARNING - The HTTP response timed out: https://www.trendyol.com/gant/kadin-kahverengi-regular-fit-fermuarli-sweatshirt-p-782370260?boutiqueId=61&merchantId=4588&filterOverPriceListings=false&sav=true
-2024-02-22 19:43:44,834 - INFO - Successfully fetched data from https://www.trendyol.com/gant/kadin-kahverengi-regular-fit-fermuarli-sweatshirt-p-782370260?boutiqueId=61&merchantId=4588&filterOverPriceListings=false&sav=true
-2024-02-22 19:44:03,744 - WARNING - The HTTP response timed out: https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 19:44:03,833 - INFO - Successfully fetched data from https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 19:44:09,677 - WARNING - The HTTP response timed out: https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 19:44:09,728 - INFO - Successfully fetched data from https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 19:44:26,291 - WARNING - The HTTP response timed out: https://www.trendyol.com/gant/kadin-kahverengi-regular-fit-fermuarli-sweatshirt-p-782370260?boutiqueId=61&merchantId=4588&filterOverPriceListings=false&sav=true
-2024-02-22 19:44:26,350 - INFO - Successfully fetched data from https://www.trendyol.com/gant/kadin-kahverengi-regular-fit-fermuarli-sweatshirt-p-782370260?boutiqueId=61&merchantId=4588&filterOverPriceListings=false&sav=true
-2024-02-22 19:44:37,989 - WARNING - The HTTP response timed out: https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 19:44:38,097 - INFO - Successfully fetched data from https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 19:44:48,685 - WARNING - The HTTP response timed out: https://www.trendyol.com/gant/kadin-kahverengi-regular-fit-fermuarli-sweatshirt-p-782370260?boutiqueId=61&merchantId=4588&filterOverPriceListings=false&sav=true
-2024-02-22 19:44:48,722 - INFO - Successfully fetched data from https://www.trendyol.com/gant/kadin-kahverengi-regular-fit-fermuarli-sweatshirt-p-782370260?boutiqueId=61&merchantId=4588&filterOverPriceListings=false&sav=true
-2024-02-22 19:47:13,965 - WARNING - The HTTP response timed out: https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 19:47:14,031 - INFO - Successfully fetched data from https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 19:47:20,056 - WARNING - The HTTP response timed out: https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 19:47:20,109 - INFO - Successfully fetched data from https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 19:47:50,141 - WARNING - The HTTP response timed out: https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 19:47:50,174 - INFO - Successfully fetched data from https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 19:47:58,372 - WARNING - The HTTP response timed out: https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 19:47:58,404 - INFO - Successfully fetched data from https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 19:48:15,009 - WARNING - The HTTP response timed out: https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 19:48:15,053 - INFO - Successfully fetched data from https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 19:49:38,790 - WARNING - The HTTP response timed out: https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 19:49:38,842 - INFO - Successfully fetched data from https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 19:51:17,706 - WARNING - The HTTP response timed out: https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 19:51:17,778 - INFO - Successfully fetched data from https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 19:53:33,823 - WARNING - The HTTP response timed out: https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 19:53:33,876 - INFO - Successfully fetched data from https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 19:54:29,750 - WARNING - The HTTP response timed out: https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 19:54:29,790 - INFO - Successfully fetched data from https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 19:54:57,775 - WARNING - The HTTP response timed out: https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 19:54:57,892 - INFO - Successfully fetched data from https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 19:56:11,694 - WARNING - The HTTP response timed out: https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 19:56:11,726 - INFO - Successfully fetched data from https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 19:56:46,001 - WARNING - The HTTP response timed out: https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 19:56:46,027 - INFO - Successfully fetched data from https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 19:57:02,705 - WARNING - The HTTP response timed out: https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 19:57:02,743 - INFO - Successfully fetched data from https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 19:58:08,419 - WARNING - The HTTP response timed out: https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 19:58:08,450 - INFO - Successfully fetched data from https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:03:27,144 - WARNING - The HTTP response timed out: https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:03:27,613 - INFO - Successfully fetched data from https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:05:11,359 - WARNING - The HTTP response timed out: https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:05:11,438 - INFO - Successfully fetched data from https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:05:30,291 - WARNING - The HTTP response timed out: https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 20:05:30,561 - INFO - Successfully fetched data from https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 20:05:53,700 - WARNING - The HTTP response timed out: https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:05:53,856 - INFO - Successfully fetched data from https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:06:26,140 - WARNING - The HTTP response timed out: https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 20:06:26,242 - INFO - Successfully fetched data from https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 20:07:23,212 - WARNING - The HTTP response timed out: https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 20:07:23,397 - INFO - Successfully fetched data from https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 20:07:45,605 - WARNING - The HTTP response timed out: https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 20:07:45,749 - INFO - Successfully fetched data from https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 20:08:01,443 - WARNING - The HTTP response timed out: https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:08:02,660 - INFO - Successfully fetched data from https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:08:12,743 - WARNING - The HTTP response timed out: https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 20:08:13,088 - INFO - Successfully fetched data from https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 20:08:21,984 - WARNING - The HTTP response timed out: https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 20:08:22,062 - INFO - Successfully fetched data from https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 20:08:36,587 - WARNING - The HTTP response timed out: https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:08:36,746 - INFO - Successfully fetched data from https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:08:48,158 - WARNING - The HTTP response timed out: https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 20:08:48,592 - INFO - Successfully fetched data from https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 20:08:59,749 - WARNING - The HTTP response timed out: https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:09:00,114 - INFO - Successfully fetched data from https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:09:11,194 - WARNING - The HTTP response timed out: https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 20:09:11,614 - INFO - Successfully fetched data from https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 20:09:20,542 - WARNING - The HTTP response timed out: https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 20:09:20,974 - INFO - Successfully fetched data from https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 20:25:54,855 - WARNING - The HTTP response timed out: https://www.n11.com/urun/apple-iphone-11-128-gb-apple-turkiye-garantili-1107897?magaza=n11
-2024-02-22 20:25:55,093 - INFO - Successfully fetched data from https://www.n11.com/urun/apple-iphone-11-128-gb-apple-turkiye-garantili-1107897?magaza=n11
-2024-02-22 20:28:54,566 - WARNING - The HTTP response timed out: https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:28:54,624 - INFO - Successfully fetched data from https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:29:15,174 - WARNING - The HTTP response timed out: https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:29:15,226 - INFO - Successfully fetched data from https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:30:30,932 - WARNING - The HTTP response timed out: https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:30:30,985 - INFO - Successfully fetched data from https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:31:34,275 - WARNING - The HTTP response timed out: https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:31:34,335 - INFO - Successfully fetched data from https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:32:38,589 - WARNING - The HTTP response timed out: https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:32:38,654 - INFO - Successfully fetched data from https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:34:25,848 - WARNING - The HTTP response timed out: https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:34:25,907 - INFO - Successfully fetched data from https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:34:42,419 - WARNING - The HTTP response timed out: https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:34:42,476 - INFO - Successfully fetched data from https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:34:57,063 - WARNING - The HTTP response timed out: https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 20:34:57,117 - INFO - Successfully fetched data from https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 20:35:18,783 - WARNING - The HTTP response timed out: https://www.trendyol.com/gant/kadin-kahverengi-regular-fit-fermuarli-sweatshirt-p-782370260?boutiqueId=61&merchantId=4588&filterOverPriceListings=false&sav=true
-2024-02-22 20:35:18,846 - INFO - Successfully fetched data from https://www.trendyol.com/gant/kadin-kahverengi-regular-fit-fermuarli-sweatshirt-p-782370260?boutiqueId=61&merchantId=4588&filterOverPriceListings=false&sav=true
-2024-02-22 20:35:48,661 - WARNING - The HTTP response timed out: https://www.trendyol.com/uzarlar-corap/10-lu-ekonomik-paket-siyah-patik-corap-p-122649100
-2024-02-22 20:35:48,718 - INFO - Successfully fetched data from https://www.trendyol.com/uzarlar-corap/10-lu-ekonomik-paket-siyah-patik-corap-p-122649100
-2024-02-22 20:36:10,374 - WARNING - The HTTP response timed out: https://www.trendyol.com/one-step/sac-sekillendirici-ve-sac-duzlestirici-fon-taragi-p-83828129?boutiqueId=61&merchantId=315582
-2024-02-22 20:36:10,426 - INFO - Successfully fetched data from https://www.trendyol.com/one-step/sac-sekillendirici-ve-sac-duzlestirici-fon-taragi-p-83828129?boutiqueId=61&merchantId=315582
-2024-02-22 20:36:45,240 - WARNING - The HTTP response timed out: https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:36:45,303 - INFO - Successfully fetched data from https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:37:10,016 - WARNING - The HTTP response timed out: https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871
-2024-02-22 20:37:10,101 - INFO - Successfully fetched data from https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871
-2024-02-22 20:38:04,855 - WARNING - The HTTP response timed out: https://www.trendyol.com/ac-co-altinyildiz-classics/erkek-beyaz-slim-fit-dar-kesim-oxford-dugmeli-yaka-armurlu-pamuklu-gomlek-p-99902014?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:38:04,921 - INFO - Successfully fetched data from https://www.trendyol.com/ac-co-altinyildiz-classics/erkek-beyaz-slim-fit-dar-kesim-oxford-dugmeli-yaka-armurlu-pamuklu-gomlek-p-99902014?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:38:32,868 - WARNING - The HTTP response timed out: https://www.trendyol.com/altus/al-6103-l-6-kg-1000-devir-beyaz-camasir-makinesi-p-99216761
-2024-02-22 20:38:32,952 - INFO - Successfully fetched data from https://www.trendyol.com/altus/al-6103-l-6-kg-1000-devir-beyaz-camasir-makinesi-p-99216761
-2024-02-22 20:41:03,682 - WARNING - The HTTP response timed out: https://www.trendyol.com/ac-co-altinyildiz-classics/erkek-beyaz-slim-fit-dar-kesim-oxford-dugmeli-yaka-armurlu-pamuklu-gomlek-p-99902014?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:41:03,726 - INFO - Successfully fetched data from https://www.trendyol.com/ac-co-altinyildiz-classics/erkek-beyaz-slim-fit-dar-kesim-oxford-dugmeli-yaka-armurlu-pamuklu-gomlek-p-99902014?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:46:34,625 - WARNING - The HTTP response timed out: https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:46:34,677 - INFO - Successfully fetched data from https://www.trendyol.com/altinyildiz-classics/erkek-ac-premiere-edp-parfum-100-ml-p-81087871?boutiqueId=61&merchantId=347&filterOverPriceListings=false&sav=true
-2024-02-22 20:46:58,258 - WARNING - The HTTP response timed out: https://www.trendyol.com/altus/al-6103-l-6-kg-1000-devir-beyaz-camasir-makinesi-p-99216761
-2024-02-22 20:46:58,320 - INFO - Successfully fetched data from https://www.trendyol.com/altus/al-6103-l-6-kg-1000-devir-beyaz-camasir-makinesi-p-99216761
-2024-02-22 20:47:19,622 - WARNING - The HTTP response timed out: https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 20:47:19,698 - INFO - Successfully fetched data from https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 20:48:48,745 - WARNING - The HTTP response timed out: https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 20:48:48,798 - INFO - Successfully fetched data from https://www.trendyol.com/happiness-istanbul/kadin-lacivert-yuksek-bel-likrali-rahat-orme-pantolon-rv00090-p-645133920?boutiqueId=622272&merchantId=968
-2024-02-22 20:49:59,740 - WARNING - The HTTP response timed out: https://www.trendyol.com/cata/ct-5145-6w-led-panel-armatur-beyaz-isik-delik-capi-10-5cm-p-348318284?boutiqueId=61&merchantId=460882
-2024-02-22 20:49:59,783 - INFO - Successfully fetched data from https://www.trendyol.com/cata/ct-5145-6w-led-panel-armatur-beyaz-isik-delik-capi-10-5cm-p-348318284?boutiqueId=61&merchantId=460882
-2024-02-22 20:50:38,395 - WARNING - The HTTP response timed out: https://www.trendyol.com/cata/ct-5145-6w-led-panel-armatur-beyaz-isik-delik-capi-10-5cm-p-348318284?boutiqueId=61&merchantId=460882
-2024-02-22 20:50:38,447 - INFO - Successfully fetched data from https://www.trendyol.com/cata/ct-5145-6w-led-panel-armatur-beyaz-isik-delik-capi-10-5cm-p-348318284?boutiqueId=61&merchantId=460882
-2024-02-22 20:51:43,878 - WARNING - The HTTP response timed out: https://www.trendyol.com/omo/toz-camasir-deterjani-sik-yikananlar-zorlu-lekeleri-ilk-yikamada-cikarir-5-kgx1-p-47199884?boutiqueId=61&merchantId=378048&advertItems=eyJhZHZlcnRJZCI6IjYyYmQ4YWU0LWY0OTYtNDI2ZS05OGQwLTFmZGI3OGI0OTI0NSIsInNvcnRpbmdTY29yZSI6MC4xNzcwMTM1NDY2MDA5Mzc4OCwiYWRTY29yZSI6MC4wNjE4OTI4NDg0NjE4NjYzOCwiYWRTY29yZXMiOnsiMSI6MC4wNjE4OTI4NDg0NjE4NjYzOCwiMiI6MC4wNjE4OTI4NDg0NjE4NjYzOH0sImNwYyI6Mi44NjAwMDAwMDAwMDAwMDAzLCJtaW5DcGMiOjAuMDEsImVDcGMiOjIuODU2MDQyNzEyNzE5Njg1LCJhZHZlcnRTbG90Ijo1LCJvcmRlciI6MTQsImF0dHJpYnV0ZXMiOiJTQUZfQSxQYXN0U2VhcmNoZXNfQixTZWFyY2hXRUJfMTMsU3VnZ2VzdGlvbkpGWVByb2R1Y3RzX0IsU0RXXzIzLEJTQV9ELEJhZGdlQm9vc3RfQSxDYXRUUl9CLFN1Z2dlc3Rpb25fQSxSZWxldmFuY3lfMSxGaWx0ZXJSZWxldmFuY3lfMSxMaXN0aW5nU2NvcmluZ0FsZ29yaXRobUlkXzEsU21hcnRsaXN0aW5nXzY1LFN1Z2dlc3Rpb25CYWRnZXNfQixQcm9kdWN0R3JvdXBUb3BQZXJmb3JtZXJfQixPcGVuRmlsdGVyVG9nZ2xlXzIsUkZfMyxSUl8yLEJTXzIsU3VnZ2VzdGlvblBvcHVsYXJDVFJfQiJ9
-2024-02-22 20:51:43,935 - INFO - Successfully fetched data from https://www.trendyol.com/omo/toz-camasir-deterjani-sik-yikananlar-zorlu-lekeleri-ilk-yikamada-cikarir-5-kgx1-p-47199884?boutiqueId=61&merchantId=378048&advertItems=eyJhZHZlcnRJZCI6IjYyYmQ4YWU0LWY0OTYtNDI2ZS05OGQwLTFmZGI3OGI0OTI0NSIsInNvcnRpbmdTY29yZSI6MC4xNzcwMTM1NDY2MDA5Mzc4OCwiYWRTY29yZSI6MC4wNjE4OTI4NDg0NjE4NjYzOCwiYWRTY29yZXMiOnsiMSI6MC4wNjE4OTI4NDg0NjE4NjYzOCwiMiI6MC4wNjE4OTI4NDg0NjE4NjYzOH0sImNwYyI6Mi44NjAwMDAwMDAwMDAwMDAzLCJtaW5DcGMiOjAuMDEsImVDcGMiOjIuODU2MDQyNzEyNzE5Njg1LCJhZHZlcnRTbG90Ijo1LCJvcmRlciI6MTQsImF0dHJpYnV0ZXMiOiJTQUZfQSxQYXN0U2VhcmNoZXNfQixTZWFyY2hXRUJfMTMsU3VnZ2VzdGlvbkpGWVByb2R1Y3RzX0IsU0RXXzIzLEJTQV9ELEJhZGdlQm9vc3RfQSxDYXRUUl9CLFN1Z2dlc3Rpb25fQSxSZWxldmFuY3lfMSxGaWx0ZXJSZWxldmFuY3lfMSxMaXN0aW5nU2NvcmluZ0FsZ29yaXRobUlkXzEsU21hcnRsaXN0aW5nXzY1LFN1Z2dlc3Rpb25CYWRnZXNfQixQcm9kdWN0R3JvdXBUb3BQZXJmb3JtZXJfQixPcGVuRmlsdGVyVG9nZ2xlXzIsUkZfMyxSUl8yLEJTXzIsU3VnZ2VzdGlvblBvcHVsYXJDVFJfQiJ9
-2024-02-22 20:53:53,783 - WARNING - The HTTP response timed out: https://www.trendyol.com/genius-store/store-erkek-polo-yaka-oversize-sweatshirt-yarim-fermuar-sweatshirt-p-769343297?boutiqueId=61&merchantId=111694
-2024-02-22 20:53:53,820 - INFO - Successfully fetched data from https://www.trendyol.com/genius-store/store-erkek-polo-yaka-oversize-sweatshirt-yarim-fermuar-sweatshirt-p-769343297?boutiqueId=61&merchantId=111694
-2024-02-22 20:54:16,481 - WARNING - The HTTP response timed out: https://www.trendyol.com/wwf-market/kizil-tilki-super-soft-hoodie-siyah-p-683463872?boutiqueId=61&merchantId=209100&advertItems=eyJhZHZlcnRJZCI6ImE3OGMyODRkLTJhYzUtNDFiMC04ZjU4LTk3YjZkMTFkMzhmYyIsInNvcnRpbmdTY29yZSI6MC4wMTY0MDEzNzY2OTAzMzA1MDcsImFkU2NvcmUiOjAuMDEyMjUyNTA4NjYyNjQxMDQ4LCJhZFNjb3JlcyI6eyIxIjowLjAxMjI1MjUwODY2MjY0MTA0OCwiMiI6MC4wMTIyNTI1MDg2NjI2NDEwNDh9LCJjcGMiOjEuMzM4NjEzNzYsIm1pbkNwYyI6MC4wMSwiZUNwYyI6MS4zMzg2MTM3NiwiYWR2ZXJ0U2xvdCI6MSwib3JkZXIiOjIsImF0dHJpYnV0ZXMiOiJTQUZfQSxQYXN0U2VhcmNoZXNfQixTZWFyY2hXRUJfMTMsU3VnZ2VzdGlvbkpGWVByb2R1Y3RzX0IsU0RXXzIzLEJTQV9ELEJhZGdlQm9vc3RfQSxDYXRUUl9CLFN1Z2dlc3Rpb25fQSxSZWxldmFuY3lfMSxGaWx0ZXJSZWxldmFuY3lfMSxMaXN0aW5nU2NvcmluZ0FsZ29yaXRobUlkXzEsU21hcnRsaXN0aW5nXzY1LFN1Z2dlc3Rpb25CYWRnZXNfQixQcm9kdWN0R3JvdXBUb3BQZXJmb3JtZXJfQixPcGVuRmlsdGVyVG9nZ2xlXzIsUkZfMyxSUl8yLEJTXzIsU3VnZ2VzdGlvblBvcHVsYXJDVFJfQiJ9
-2024-02-22 20:54:16,538 - INFO - Successfully fetched data from https://www.trendyol.com/wwf-market/kizil-tilki-super-soft-hoodie-siyah-p-683463872?boutiqueId=61&merchantId=209100&advertItems=eyJhZHZlcnRJZCI6ImE3OGMyODRkLTJhYzUtNDFiMC04ZjU4LTk3YjZkMTFkMzhmYyIsInNvcnRpbmdTY29yZSI6MC4wMTY0MDEzNzY2OTAzMzA1MDcsImFkU2NvcmUiOjAuMDEyMjUyNTA4NjYyNjQxMDQ4LCJhZFNjb3JlcyI6eyIxIjowLjAxMjI1MjUwODY2MjY0MTA0OCwiMiI6MC4wMTIyNTI1MDg2NjI2NDEwNDh9LCJjcGMiOjEuMzM4NjEzNzYsIm1pbkNwYyI6MC4wMSwiZUNwYyI6MS4zMzg2MTM3NiwiYWR2ZXJ0U2xvdCI6MSwib3JkZXIiOjIsImF0dHJpYnV0ZXMiOiJTQUZfQSxQYXN0U2VhcmNoZXNfQixTZWFyY2hXRUJfMTMsU3VnZ2VzdGlvbkpGWVByb2R1Y3RzX0IsU0RXXzIzLEJTQV9ELEJhZGdlQm9vc3RfQSxDYXRUUl9CLFN1Z2dlc3Rpb25fQSxSZWxldmFuY3lfMSxGaWx0ZXJSZWxldmFuY3lfMSxMaXN0aW5nU2NvcmluZ0FsZ29yaXRobUlkXzEsU21hcnRsaXN0aW5nXzY1LFN1Z2dlc3Rpb25CYWRnZXNfQixQcm9kdWN0R3JvdXBUb3BQZXJmb3JtZXJfQixPcGVuRmlsdGVyVG9nZ2xlXzIsUkZfMyxSUl8yLEJTXzIsU3VnZ2VzdGlvblBvcHVsYXJDVFJfQiJ9
-2024-02-22 20:54:30,923 - WARNING - The HTTP response timed out: https://www.trendyol.com/omo/active-fresh-toz-camasir-deterjani-renkliler-icin-9-kg-p-32424918?boutiqueId=61&merchantId=378048&advertItems=eyJhZHZlcnRJZCI6IjYyYmQ4YWU0LWY0OTYtNDI2ZS05OGQwLTFmZGI3OGI0OTI0NSIsInNvcnRpbmdTY29yZSI6MC4xMzQ2NDc5NTU0NDc0MzU0LCJhZFNjb3JlIjowLjA0NzA3OTcwNDcwMTkwMDQ4LCJhZFNjb3JlcyI6eyIxIjowLjA0NzA3OTcwNDcwMTkwMDQ4LCIyIjowLjA0NzA3OTcwNDcwMTkwMDQ4fSwiY3BjIjoyLjg2MDAwMDAwMDAwMDAwMDMsIm1pbkNwYyI6MC4wMSwiZUNwYyI6Mi44NDA5MzAwOTg5MzM0ODYsImFkdmVydFNsb3QiOjExLCJvcmRlciI6OCwiYXR0cmlidXRlcyI6IlNBRl9BLFBhc3RTZWFyY2hlc19CLFNlYXJjaFdFQl8xMyxTdWdnZXN0aW9uSkZZUHJvZHVjdHNfQixTRFdfMjMsQlNBX0QsQmFkZ2VCb29zdF9BLENhdFRSX0IsU3VnZ2VzdGlvbl9BLFJlbGV2YW5jeV8xLEZpbHRlclJlbGV2YW5jeV8xLExpc3RpbmdTY29yaW5nQWxnb3JpdGhtSWRfMSxTbWFydGxpc3RpbmdfNjUsU3VnZ2VzdGlvbkJhZGdlc19CLFByb2R1Y3RHcm91cFRvcFBlcmZvcm1lcl9CLE9wZW5GaWx0ZXJUb2dnbGVfMixSRl8zLFJSXzIsQlNfMixTdWdnZXN0aW9uUG9wdWxhckNUUl9CIn0=
-2024-02-22 20:54:30,956 - INFO - Successfully fetched data from https://www.trendyol.com/omo/active-fresh-toz-camasir-deterjani-renkliler-icin-9-kg-p-32424918?boutiqueId=61&merchantId=378048&advertItems=eyJhZHZlcnRJZCI6IjYyYmQ4YWU0LWY0OTYtNDI2ZS05OGQwLTFmZGI3OGI0OTI0NSIsInNvcnRpbmdTY29yZSI6MC4xMzQ2NDc5NTU0NDc0MzU0LCJhZFNjb3JlIjowLjA0NzA3OTcwNDcwMTkwMDQ4LCJhZFNjb3JlcyI6eyIxIjowLjA0NzA3OTcwNDcwMTkwMDQ4LCIyIjowLjA0NzA3OTcwNDcwMTkwMDQ4fSwiY3BjIjoyLjg2MDAwMDAwMDAwMDAwMDMsIm1pbkNwYyI6MC4wMSwiZUNwYyI6Mi44NDA5MzAwOTg5MzM0ODYsImFkdmVydFNsb3QiOjExLCJvcmRlciI6OCwiYXR0cmlidXRlcyI6IlNBRl9BLFBhc3RTZWFyY2hlc19CLFNlYXJjaFdFQl8xMyxTdWdnZXN0aW9uSkZZUHJvZHVjdHNfQixTRFdfMjMsQlNBX0QsQmFkZ2VCb29zdF9BLENhdFRSX0IsU3VnZ2VzdGlvbl9BLFJlbGV2YW5jeV8xLEZpbHRlclJlbGV2YW5jeV8xLExpc3RpbmdTY29yaW5nQWxnb3JpdGhtSWRfMSxTbWFydGxpc3RpbmdfNjUsU3VnZ2VzdGlvbkJhZGdlc19CLFByb2R1Y3RHcm91cFRvcFBlcmZvcm1lcl9CLE9wZW5GaWx0ZXJUb2dnbGVfMixSRl8zLFJSXzIsQlNfMixTdWdnZXN0aW9uUG9wdWxhckNUUl9CIn0=
-2024-02-22 20:56:05,693 - WARNING - The HTTP response timed out: https://www.trendyol.com/lancome/hypnose-drama-aninda-dolgunluk-ve-hacim-etkili-maskara-01-siyah-3605531812213-p-280500?boutiqueId=61&merchantId=210033&sav=true
-2024-02-22 20:56:05,770 - INFO - Successfully fetched data from https://www.trendyol.com/lancome/hypnose-drama-aninda-dolgunluk-ve-hacim-etkili-maskara-01-siyah-3605531812213-p-280500?boutiqueId=61&merchantId=210033&sav=true
-2024-02-22 20:56:37,713 - WARNING - The HTTP response timed out: https://www.trendyol.com/lancome/hypnose-drama-aninda-dolgunluk-ve-hacim-etkili-maskara-01-siyah-3605531812213-p-280500?boutiqueId=61&merchantId=210033&sav=true
-2024-02-22 20:56:37,777 - INFO - Successfully fetched data from https://www.trendyol.com/lancome/hypnose-drama-aninda-dolgunluk-ve-hacim-etkili-maskara-01-siyah-3605531812213-p-280500?boutiqueId=61&merchantId=210033&sav=true
-2024-02-22 20:56:50,400 - WARNING - The HTTP response timed out: https://www.trendyol.com/genius-store/store-erkek-polo-yaka-oversize-sweatshirt-yarim-fermuar-sweatshirt-p-769343297?boutiqueId=61&merchantId=111694
-2024-02-22 20:56:50,434 - INFO - Successfully fetched data from https://www.trendyol.com/genius-store/store-erkek-polo-yaka-oversize-sweatshirt-yarim-fermuar-sweatshirt-p-769343297?boutiqueId=61&merchantId=111694
-2024-02-22 20:57:42,336 - WARNING - The HTTP response timed out: https://www.trendyol.com/lancome/hypnose-drama-aninda-dolgunluk-ve-hacim-etkili-maskara-01-siyah-3605531812213-p-280500?boutiqueId=61&merchantId=210033&sav=true
-2024-02-22 20:57:42,406 - INFO - Successfully fetched data from https://www.trendyol.com/lancome/hypnose-drama-aninda-dolgunluk-ve-hacim-etkili-maskara-01-siyah-3605531812213-p-280500?boutiqueId=61&merchantId=210033&sav=true
-2024-02-22 20:57:58,752 - WARNING - The HTTP response timed out: https://www.trendyol.com/lancome/hypnose-drama-aninda-dolgunluk-ve-hacim-etkili-maskara-01-siyah-3605531812213-p-280500?boutiqueId=61&merchantId=210033&sav=true
-2024-02-22 20:57:58,788 - INFO - Successfully fetched data from https://www.trendyol.com/lancome/hypnose-drama-aninda-dolgunluk-ve-hacim-etkili-maskara-01-siyah-3605531812213-p-280500?boutiqueId=61&merchantId=210033&sav=true
-2024-02-22 20:58:16,706 - WARNING - The HTTP response timed out: https://www.trendyol.com/lancome/hypnose-drama-aninda-dolgunluk-ve-hacim-etkili-maskara-01-siyah-3605531812213-p-280500?boutiqueId=61&merchantId=210033&sav=true
-2024-02-22 20:58:16,761 - INFO - Successfully fetched data from https://www.trendyol.com/lancome/hypnose-drama-aninda-dolgunluk-ve-hacim-etkili-maskara-01-siyah-3605531812213-p-280500?boutiqueId=61&merchantId=210033&sav=true
-2024-02-22 20:59:29,984 - WARNING - The HTTP response timed out: https://www.trendyol.com/genius-store/store-erkek-polo-yaka-oversize-sweatshirt-yarim-fermuar-sweatshirt-p-769343297?boutiqueId=61&merchantId=111694
-2024-02-22 20:59:30,025 - INFO - Successfully fetched data from https://www.trendyol.com/genius-store/store-erkek-polo-yaka-oversize-sweatshirt-yarim-fermuar-sweatshirt-p-769343297?boutiqueId=61&merchantId=111694
-2024-02-22 20:59:45,013 - WARNING - The HTTP response timed out: https://www.trendyol.com/genius-store/store-erkek-polo-yaka-oversize-sweatshirt-yarim-fermuar-sweatshirt-p-769343297?boutiqueId=61&merchantId=111694
-2024-02-22 20:59:45,086 - INFO - Successfully fetched data from https://www.trendyol.com/genius-store/store-erkek-polo-yaka-oversize-sweatshirt-yarim-fermuar-sweatshirt-p-769343297?boutiqueId=61&merchantId=111694
-2024-02-22 21:00:31,969 - WARNING - The HTTP response timed out: https://www.trendyol.com/genius-store/store-erkek-polo-yaka-oversize-sweatshirt-yarim-fermuar-sweatshirt-p-769343297?boutiqueId=61&merchantId=111694
-2024-02-22 21:00:32,029 - INFO - Successfully fetched data from https://www.trendyol.com/genius-store/store-erkek-polo-yaka-oversize-sweatshirt-yarim-fermuar-sweatshirt-p-769343297?boutiqueId=61&merchantId=111694
-2024-02-22 21:01:28,394 - WARNING - The HTTP response timed out: https://www.trendyol.com/genius-store/store-erkek-polo-yaka-oversize-sweatshirt-yarim-fermuar-sweatshirt-p-769343297?boutiqueId=61&merchantId=111694
-2024-02-22 21:01:28,455 - INFO - Successfully fetched data from https://www.trendyol.com/genius-store/store-erkek-polo-yaka-oversize-sweatshirt-yarim-fermuar-sweatshirt-p-769343297?boutiqueId=61&merchantId=111694
-2024-02-22 21:02:46,720 - WARNING - The HTTP response timed out: https://www.trendyol.com/genius-store/store-erkek-polo-yaka-oversize-sweatshirt-yarim-fermuar-sweatshirt-p-769343297?boutiqueId=61&merchantId=111694
-2024-02-22 21:02:46,781 - INFO - Successfully fetched data from https://www.trendyol.com/genius-store/store-erkek-polo-yaka-oversize-sweatshirt-yarim-fermuar-sweatshirt-p-769343297?boutiqueId=61&merchantId=111694
-2024-02-22 21:03:29,356 - WARNING - The HTTP response timed out: https://www.trendyol.com/genius-store/store-erkek-polo-yaka-oversize-sweatshirt-yarim-fermuar-sweatshirt-p-769343297?boutiqueId=61&merchantId=111694
-2024-02-22 21:03:29,399 - INFO - Successfully fetched data from https://www.trendyol.com/genius-store/store-erkek-polo-yaka-oversize-sweatshirt-yarim-fermuar-sweatshirt-p-769343297?boutiqueId=61&merchantId=111694
-2024-02-22 21:04:57,253 - WARNING - The HTTP response timed out: https://www.trendyol.com/lancome/hypnose-drama-aninda-dolgunluk-ve-hacim-etkili-maskara-01-siyah-3605531812213-p-280500
-2024-02-22 21:04:57,313 - INFO - Successfully fetched data from https://www.trendyol.com/lancome/hypnose-drama-aninda-dolgunluk-ve-hacim-etkili-maskara-01-siyah-3605531812213-p-280500
-2024-02-22 21:08:49,679 - WARNING - The HTTP response timed out: https://www.trendyol.com/lancome/hypnose-drama-aninda-dolgunluk-ve-hacim-etkili-maskara-01-siyah-3605531812213-p-280500
-2024-02-22 21:08:49,736 - INFO - Successfully fetched data from https://www.trendyol.com/lancome/hypnose-drama-aninda-dolgunluk-ve-hacim-etkili-maskara-01-siyah-3605531812213-p-280500
-2024-02-22 21:09:11,467 - WARNING - The HTTP response timed out: https://www.trendyol.com/lancome/hypnose-drama-aninda-dolgunluk-ve-hacim-etkili-maskara-01-siyah-3605531812213-p-280500
-2024-02-22 21:09:11,524 - INFO - Successfully fetched data from https://www.trendyol.com/lancome/hypnose-drama-aninda-dolgunluk-ve-hacim-etkili-maskara-01-siyah-3605531812213-p-280500
-2024-02-22 21:09:24,284 - WARNING - The HTTP response timed out: https://www.trendyol.com/lancome/hypnose-drama-aninda-dolgunluk-ve-hacim-etkili-maskara-01-siyah-3605531812213-p-280500
-2024-02-22 21:09:24,341 - INFO - Successfully fetched data from https://www.trendyol.com/lancome/hypnose-drama-aninda-dolgunluk-ve-hacim-etkili-maskara-01-siyah-3605531812213-p-280500
-2024-02-22 21:09:58,354 - WARNING - The HTTP response timed out: https://www.trendyol.com/ikt/stick-wax-ve-topuz-fircasi-p-708136787
-2024-02-22 21:09:58,428 - INFO - Successfully fetched data from https://www.trendyol.com/ikt/stick-wax-ve-topuz-fircasi-p-708136787
-2024-02-22 21:10:42,413 - WARNING - The HTTP response timed out: https://www.trendyol.com/ikt/stick-wax-ve-topuz-fircasi-p-708136787
-2024-02-22 21:10:42,476 - INFO - Successfully fetched data from https://www.trendyol.com/ikt/stick-wax-ve-topuz-fircasi-p-708136787
-2024-02-22 21:11:49,500 - WARNING - The HTTP response timed out: https://www.trendyol.com/karaca/x-refika-birgul-swiss-crystal-tava-26-cm-creamy-p-767341702?boutiqueId=61&merchantId=253958
-2024-02-22 21:11:49,564 - INFO - Successfully fetched data from https://www.trendyol.com/karaca/x-refika-birgul-swiss-crystal-tava-26-cm-creamy-p-767341702?boutiqueId=61&merchantId=253958
-2024-02-22 21:12:00,129 - WARNING - The HTTP response timed out: https://www.trendyol.com/lancome/hypnose-drama-aninda-dolgunluk-ve-hacim-etkili-maskara-01-siyah-3605531812213-p-280500?boutiqueId=61&merchantId=210033&sav=true
-2024-02-22 21:12:00,173 - INFO - Successfully fetched data from https://www.trendyol.com/lancome/hypnose-drama-aninda-dolgunluk-ve-hacim-etkili-maskara-01-siyah-3605531812213-p-280500?boutiqueId=61&merchantId=210033&sav=true
+2024-02-23 00:07:30,988 - WARNING - The HTTP response timed out: https://www.trendyol.com/mango/burusuk-acilimli-elbise-p-739936765
+2024-02-23 00:07:31,105 - INFO - Successfully fetched data from https://www.trendyol.com/mango/burusuk-acilimli-elbise-p-739936765
+2024-02-23 00:07:42,878 - WARNING - The HTTP response timed out: https://www.trendyol.com/mango/kruvaze-yun-palto-p-781530437?boutiqueId=61&merchantId=104723&filterOverPriceListings=false&sav=true
+2024-02-23 00:07:42,931 - INFO - Successfully fetched data from https://www.trendyol.com/mango/kruvaze-yun-palto-p-781530437?boutiqueId=61&merchantId=104723&filterOverPriceListings=false&sav=true
+2024-02-23 00:08:00,955 - WARNING - The HTTP response timed out: https://www.trendyol.com/mango/kruvaze-yun-palto-p-781530437?boutiqueId=61&merchantId=104723&filterOverPriceListings=false&sav=true
+2024-02-23 00:08:01,066 - INFO - Successfully fetched data from https://www.trendyol.com/mango/kruvaze-yun-palto-p-781530437?boutiqueId=61&merchantId=104723&filterOverPriceListings=false&sav=true
+2024-02-23 00:09:49,249 - WARNING - The HTTP response timed out: https://www.trendyol.com/mango/burusuk-acilimli-elbise-p-739936765
+2024-02-23 00:09:49,291 - INFO - Successfully fetched data from https://www.trendyol.com/mango/burusuk-acilimli-elbise-p-739936765
+2024-02-23 00:10:12,014 - WARNING - The HTTP response timed out: https://www.trendyol.com/holly-lolly/aksesuar-detayli-yun-karisimli-maxi-boy-woody-kaban-gri-p-402119407
+2024-02-23 00:10:12,131 - INFO - Successfully fetched data from https://www.trendyol.com/holly-lolly/aksesuar-detayli-yun-karisimli-maxi-boy-woody-kaban-gri-p-402119407
+2024-02-23 00:10:43,794 - WARNING - The HTTP response timed out: https://www.trendyol.com/zulays/uzun-oversize-kase-kaban-aci-kahve-p-788120853
+2024-02-23 00:10:43,889 - INFO - Successfully fetched data from https://www.trendyol.com/zulays/uzun-oversize-kase-kaban-aci-kahve-p-788120853
+2024-02-23 00:11:06,691 - WARNING - The HTTP response timed out: https://www.trendyol.com/zulays/uzun-oversize-kase-kaban-aci-kahve-p-788120853
+2024-02-23 00:11:06,849 - INFO - Successfully fetched data from https://www.trendyol.com/zulays/uzun-oversize-kase-kaban-aci-kahve-p-788120853
+2024-02-23 00:11:11,563 - WARNING - The HTTP response timed out: https://www.trendyol.com/zulays/uzun-oversize-kase-kaban-aci-kahve-p-788120853
+2024-02-23 00:11:11,586 - INFO - Successfully fetched data from https://www.trendyol.com/zulays/uzun-oversize-kase-kaban-aci-kahve-p-788120853
+2024-02-23 00:11:14,427 - WARNING - The HTTP response timed out: https://www.trendyol.com/zulays/uzun-oversize-kase-kaban-aci-kahve-p-788120853
+2024-02-23 00:11:14,472 - INFO - Successfully fetched data from https://www.trendyol.com/zulays/uzun-oversize-kase-kaban-aci-kahve-p-788120853
+2024-02-23 00:11:20,716 - WARNING - The HTTP response timed out: https://www.trendyol.com/zulays/uzun-oversize-kase-kaban-aci-kahve-p-788120853
+2024-02-23 00:11:20,753 - INFO - Successfully fetched data from https://www.trendyol.com/zulays/uzun-oversize-kase-kaban-aci-kahve-p-788120853
+2024-02-23 00:12:00,791 - WARNING - The HTTP response timed out: https://www.trendyol.com/zulays/uzun-oversize-kase-kaban-aci-kahve-p-788120853
+2024-02-23 00:12:01,022 - INFO - Successfully fetched data from https://www.trendyol.com/zulays/uzun-oversize-kase-kaban-aci-kahve-p-788120853
+2024-02-23 00:12:38,795 - WARNING - The HTTP response timed out: https://www.trendyol.com/zulays/uzun-oversize-kase-kaban-aci-kahve-p-788120853
+2024-02-23 00:12:38,979 - INFO - Successfully fetched data from https://www.trendyol.com/zulays/uzun-oversize-kase-kaban-aci-kahve-p-788120853
+2024-02-23 00:12:50,994 - WARNING - The HTTP response timed out: https://www.trendyol.com/zulays/uzun-oversize-kase-kaban-aci-kahve-p-788120853
+2024-02-23 00:12:51,033 - INFO - Successfully fetched data from https://www.trendyol.com/zulays/uzun-oversize-kase-kaban-aci-kahve-p-788120853
+2024-02-23 00:13:24,916 - WARNING - The HTTP response timed out: https://www.trendyol.com/holly-lolly/aksesuar-detayli-yun-karisimli-maxi-boy-woody-kaban-gri-p-402119407
+2024-02-23 00:13:24,955 - INFO - Successfully fetched data from https://www.trendyol.com/holly-lolly/aksesuar-detayli-yun-karisimli-maxi-boy-woody-kaban-gri-p-402119407
+2024-02-23 00:14:00,243 - WARNING - The HTTP response timed out: https://www.trendyol.com/bargello/erkek-parfum-709-oriental-50-ml-edp-8691841304590-p-32446867?boutiqueId=61&merchantId=117151&sav=true
+2024-02-23 00:14:00,300 - INFO - Successfully fetched data from https://www.trendyol.com/bargello/erkek-parfum-709-oriental-50-ml-edp-8691841304590-p-32446867?boutiqueId=61&merchantId=117151&sav=true
+2024-02-23 00:14:49,599 - WARNING - The HTTP response timed out: https://www.n11.com/urun/puma-38618509-carina-kadin-gunluk-ayakkabi-beyaz-pembe-49769757?magaza=baharium
+2024-02-23 00:14:49,709 - INFO - Successfully fetched data from https://www.n11.com/urun/puma-38618509-carina-kadin-gunluk-ayakkabi-beyaz-pembe-49769757?magaza=baharium
+2024-02-23 00:16:04,523 - WARNING - The HTTP response timed out: https://www.n11.com/urun/samsung-galaxy-smarttag-2-ei-t5600-akilli-takip-cihazi-43776484?magaza=mrcep
+2024-02-23 00:16:04,523 - INFO - Successfully fetched data from https://www.n11.com/urun/samsung-galaxy-smarttag-2-ei-t5600-akilli-takip-cihazi-43776484?magaza=mrcep
+2024-02-23 00:21:55,008 - WARNING - The HTTP response timed out: https://www.n11.com/urun/samsung-galaxy-smarttag-2-ei-t5600-akilli-takip-cihazi-43776484?magaza=mrcep
+2024-02-23 00:21:55,012 - INFO - Successfully fetched data from https://www.n11.com/urun/samsung-galaxy-smarttag-2-ei-t5600-akilli-takip-cihazi-43776484?magaza=mrcep
+2024-02-23 00:22:17,580 - WARNING - The HTTP response timed out: https://www.n11.com/urun/apple-iphone-11-128-gb-apple-turkiye-garantili-1107897?magaza=n11
+2024-02-23 00:22:17,614 - INFO - Successfully fetched data from https://www.n11.com/urun/apple-iphone-11-128-gb-apple-turkiye-garantili-1107897?magaza=n11
+2024-02-23 00:26:12,597 - WARNING - The HTTP response timed out: https://www.n11.com/urun/apple-iphone-11-128-gb-apple-turkiye-garantili-1107897?magaza=n11
+2024-02-23 00:26:12,597 - INFO - Successfully fetched data from https://www.n11.com/urun/apple-iphone-11-128-gb-apple-turkiye-garantili-1107897?magaza=n11
+2024-02-23 00:29:07,762 - WARNING - The HTTP response timed out: https://www.n11.com/urun/tohana-good-morning-borosilikat-cam-kupa-400-ml-87333-10238193?magaza=eksiksepeti
+2024-02-23 00:29:07,762 - INFO - Successfully fetched data from https://www.n11.com/urun/tohana-good-morning-borosilikat-cam-kupa-400-ml-87333-10238193?magaza=eksiksepeti
+2024-02-23 00:34:49,580 - WARNING - The HTTP response timed out: https://www.n11.com/urun/tohana-good-morning-borosilikat-cam-kupa-400-ml-87333-10238193?magaza=eksiksepeti
+2024-02-23 00:34:49,607 - INFO - Successfully fetched data from https://www.n11.com/urun/tohana-good-morning-borosilikat-cam-kupa-400-ml-87333-10238193?magaza=eksiksepeti
+2024-02-23 00:38:34,097 - WARNING - The HTTP response timed out: https://www.n11.com/urun/tohana-good-morning-borosilikat-cam-kupa-400-ml-87333-10238193?magaza=eksiksepeti
+2024-02-23 00:38:34,195 - INFO - Successfully fetched data from https://www.n11.com/urun/tohana-good-morning-borosilikat-cam-kupa-400-ml-87333-10238193?magaza=eksiksepeti
+2024-02-23 00:40:44,532 - WARNING - The HTTP response timed out: https://www.n11.com/urun/tohana-good-morning-borosilikat-cam-kupa-400-ml-87333-10238193?magaza=eksiksepeti
+2024-02-23 00:40:44,566 - INFO - Successfully fetched data from https://www.n11.com/urun/tohana-good-morning-borosilikat-cam-kupa-400-ml-87333-10238193?magaza=eksiksepeti
+2024-02-23 00:41:19,993 - WARNING - The HTTP response timed out: https://www.n11.com/urun/tohana-good-morning-borosilikat-cam-kupa-400-ml-87333-10238193?magaza=eksiksepeti
+2024-02-23 00:41:19,994 - INFO - Successfully fetched data from https://www.n11.com/urun/tohana-good-morning-borosilikat-cam-kupa-400-ml-87333-10238193?magaza=eksiksepeti
+2024-02-23 00:45:48,918 - WARNING - The HTTP response timed out: https://www.n11.com/urun/tohana-good-morning-borosilikat-cam-kupa-400-ml-87333-10238193?magaza=eksiksepeti
+2024-02-23 00:45:48,950 - INFO - Successfully fetched data from https://www.n11.com/urun/tohana-good-morning-borosilikat-cam-kupa-400-ml-87333-10238193?magaza=eksiksepeti
+2024-02-23 00:45:49,548 - WARNING - The HTTP response timed out: https://www.n11.com/urun/tp-link-tapo-c211-2k-3-mp-yatay-dikey-wi-fi-ev-guvenlik-kamerasi-hafiza-karti-46377738?magaza=intros
+2024-02-23 00:45:49,576 - INFO - Successfully fetched data from https://www.n11.com/urun/tp-link-tapo-c211-2k-3-mp-yatay-dikey-wi-fi-ev-guvenlik-kamerasi-hafiza-karti-46377738?magaza=intros
+2024-02-23 00:45:49,942 - WARNING - The HTTP response timed out: https://www.n11.com/urun/kadin-siyah-oversize-cizgili-yarim-balikci-yaka-triko-kazak-45390473?magaza=bejna
+2024-02-23 00:45:49,942 - INFO - Successfully fetched data from https://www.n11.com/urun/kadin-siyah-oversize-cizgili-yarim-balikci-yaka-triko-kazak-45390473?magaza=bejna
+2024-02-23 00:47:59,730 - WARNING - The HTTP response timed out: https://www.n11.com/urun/tp-link-tapo-c211-2k-3-mp-yatay-dikey-wi-fi-ev-guvenlik-kamerasi-hafiza-karti-46377738?magaza=intros
+2024-02-23 00:48:04,653 - INFO - Successfully fetched data from https://www.n11.com/urun/tp-link-tapo-c211-2k-3-mp-yatay-dikey-wi-fi-ev-guvenlik-kamerasi-hafiza-karti-46377738?magaza=intros

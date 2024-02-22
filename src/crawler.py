@@ -1,7 +1,6 @@
 # src/crawler.py
 import aiohttp
 import re
-
 import os
 import logging
 
@@ -15,13 +14,14 @@ logging.basicConfig(filename=log_file_path, level=logging.INFO, format='%(asctim
 
 
 class Crawler:
-    # Fetch the HTML content of the given URL.
     @staticmethod
     async def fetch(url):
         """
         Fetches the HTML content of the given URL using aiohttp.
+
         Parameters:
         - url (str): The URL to fetch.
+
         Returns:
         - str: The HTML content of the page.
         """
@@ -47,6 +47,11 @@ class Crawler:
                     logging.error(f"Error fetching {url}: {e}")
                     print("An error occurred while fetching")
 
+                    # Handle ClientConnectorError
+                    if isinstance(e, aiohttp.client_exceptions.ClientConnectorError):
+                        print(f"Error connecting to {url}: {e}")
+                        return None
+
                     # Provide a warning and continue if it's a 403 error
                     if '403' in str(e):
                         logging.warning("Forbidden (403) error. Program will continue.")
@@ -58,7 +63,6 @@ class Crawler:
                     print("An unexpected error occurred.")
                     raise
 
-    # Check if the given URL is valid.
     @staticmethod
     async def check_url(url):
         """

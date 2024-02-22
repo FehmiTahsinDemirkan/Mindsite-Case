@@ -1,5 +1,3 @@
-# main.py
-
 import asyncio
 from src import parser
 from src.storage import StorageExporter
@@ -12,27 +10,26 @@ async def main():
     crawler_instance = Crawler()
 
     while True:
-        url = input("Enter the URL: ")
-        html_content = await crawler_instance.fetch(url)
+        urls = input("Enter the URLs separated by commas: ")
+        url_list = [url.strip() for url in urls.split(',')]
 
+        for url in url_list:
+            html_content = await crawler_instance.fetch(url)
+            print(f"\nProduct Details for URL: {url}\n")
 
-        if html_content:
-            # Trendyol URL kontrolü
-            if "trendyol.com" in url:
-                print("\nProduct Details : \n")
-                url_parser = parser.TrendyolURLParser(url)
-            # N11 URL kontrolü
-            elif "n11.com" in url:
-                print("\nProduct Details : \n")
-                url_parser = parser.N11URLParser(url)
-            else:
-                print("Error: Unsupported website. Please enter a valid Trendyol or N11 URL.")
-                continue
+            if html_content:
+                if "trendyol.com" in url:
+                    url_parser = parser.TrendyolURLParser(url)
+                elif "n11.com" in url:
+                    url_parser = parser.N11URLParser(url)
+                else:
+                    print("Error: Unsupported URL format.")
+                    continue
 
-            product_list = url_parser.parse(html_content)
-            all_products.extend(product_list)
+                product_list = url_parser.parse(html_content)
+                all_products.extend(product_list)
 
-        user_decision = input("\nDo you want to continue? (y/n):")
+        user_decision = input("\nDo you want to continue? (y/n): ")
         if user_decision.lower() != 'y':
             user_email = input("Enter the recipient's email address: ")
             break
@@ -50,7 +47,7 @@ async def main():
     await email_sender.send_crawl_success_email(receiver_email="fehmitahsindemirkan@gmail.com")
 
     # Export işlemi sonucunda kullanıcının girdiği mail adresine dosyaları gönderen mail gönderme
-    await email_sender.send_exported_data_email(receiver_email= user_email, product_data=all_products,
+    await email_sender.send_exported_data_email(receiver_email=user_email, product_data=all_products,
                                                 attachments=['output.json', 'output.csv', 'output.xlsx'])
 
 

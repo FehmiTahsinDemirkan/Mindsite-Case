@@ -3,6 +3,7 @@ from src.product import Product
 from lxml import html
 import time
 
+
 class TrendyolURLParser:
     """
     Parses product details specifically from Trendyol URLs.
@@ -19,7 +20,6 @@ class TrendyolURLParser:
 
     def parse(self, html_content):
 
-        print(html_content)
         # HTML içeriğini BeautifulSoup kütüphanesi ile parse et
         soup = BeautifulSoup(html_content, 'html.parser')
         parsed_html = html.fromstring(html_content)
@@ -28,34 +28,45 @@ class TrendyolURLParser:
         if not self.is_trendyol_url(self.url):
             print("Error: This parser is only compatible with Trendyol URLs.")
             return self.product_list
+        '''''
+                title_tag = parsed_html.xpath('//h1[@class="pr-new-br"]/span/text()')
+                if not title_tag:
+                    title_tag = parsed_html.xpath('//h1[@class="zLHJIGKJ"]/span/text()')
+                    if not title_tag:
+                        title_tag = "ikisi de değil"
+                else:
+                    title_tag = title_tag[0].strip()
 
 
+                #title = title_tag.text.strip() if title_tag else None
+                print(f"Title: {title_tag}")
+                '''
         # Product Title
-        title_tag = parsed_html.xpath('//h1[@class="pr-new-br"]/span/text()') #[0].strip()
-        if not title_tag:
-            title_tag = parsed_html.xpath('//h1[@class="zLHJIGKJ"]/span/text()') #[0].strip()
-            if not title_tag:
-                title_tag = "ikisi de değil"
-        if title_tag is not str:
-            title_tag = title_tag[0].strip()
+        title_tag_pr_new_br = parsed_html.xpath('//h1[@class="pr-new-br"]/a/strong/text()')
+        title_tag_zLHJIGKJ = parsed_html.xpath('//h1[@class="zLHJIGKJ"]/a/strong/text()')
 
-
-        #title = title_tag.text.strip() if title_tag else None
-        print(f"Title: {title_tag}")
-
-
+        if title_tag_pr_new_br:
+            title_tag = title_tag_pr_new_br[0].strip()
+            print(f"Title: {title_tag}")
+        elif title_tag_zLHJIGKJ:
+            title_tag = title_tag_zLHJIGKJ[0].strip()
+            print(f"Title: {title_tag}")
+        else:
+            title_tag = "ikisi de değil"
 
         # Product Price
-        price_tag = parsed_html.xpath('//span[@class="prc-dsc"]/text()')
-        if price_tag is None:
-            price_tag = parsed_html.xpath('//span[@class="FteoagkF"]/text()')
-            if price_tag is None:
-                price_tag = "ikisi de değil"
-        if price_tag is not str:
+        price_tag = parsed_html.xpath('//span[@class="FteoagkF"]/text()')
+        if not price_tag:
+            price_tag = parsed_html.xpath('//span[@class="prc-dsc"]/text()')
+            print(f"Price: {price_tag}")
+            if not price_tag:
+                ""
+            else:
+                price_tag = price_tag[0].strip()
+                print(f"Price: {price_tag}")
+        else:
             price_tag = price_tag[0].strip()
-
-            #price = price_tag.text.strip() if price_tag else None
-        print(f"Price: {price_tag}")
+            print(f"Price: {price_tag}")
 
         # Discounted Price
         discounted_price_tag = soup.select_one('span.prc-org')
@@ -83,11 +94,14 @@ class TrendyolURLParser:
         print(f"Review Count: {review_count}")
 
         # Yeni bir Product nesnesi oluşturup product_list'e ekleyin
-        product = Product(title_tag, price_tag, discounted_price, main_image_url, image_urls, rating_score, review_count)
+        product = Product(title_tag, price_tag, discounted_price, main_image_url, image_urls, rating_score,
+                          review_count)
         self.product_list.append(product)
 
         # Herhangi bir return ifadesine gerek yok, çünkü product_list instance variable'ında zaten tutuluyor.
         return self.product_list
+
+
 class N11URLParser:
     """
     Parses product details specifically from N11 URLs.
@@ -116,15 +130,22 @@ class N11URLParser:
         title = title_tag.text.strip() if title_tag else None
         print(f"Title: {title}")
 
-        # Product Price
-        product_price_tag = soup.select_one('.newPrice ins')
-        product_price = product_price_tag['content'] if product_price_tag else None
-        print(f"Product Price: {product_price}")
+        # Product Price using XPath
+        parsed_html = html.fromstring(html_content)
+        product_price = parsed_html.xpath(
+            '//*[@id="unf-p-id"]/div/div[2]/div[2]/div[1]/div/div[2]/div[2]/div[1]/div/div/div/div[2]/text()')
+        product_price = product_price[0].strip() if product_price else None
+        if product_price is not None:
+            print(f"Product Price: {product_price}")
 
         # Discounted Price
-        discounted_price_tag = soup.select_one('.oldPrice')
+        discounted_price_tag = soup.select_one('.priceContainer .oldPrice')
+        if not discounted_price_tag:
+            discounted_price_tag = soup.select_one('.oldPrice')
+
         discounted_price = discounted_price_tag.text.strip() if discounted_price_tag else None
-        print(f"Discounted Price: {discounted_price}")
+        if discounted_price is not None:
+            print(f"Discounted Price: {discounted_price}")
 
         # Product's main Image URL
         main_image_tag = soup.select_one('img.lazy.unf-p-img')
@@ -148,7 +169,8 @@ class N11URLParser:
         print(f"Review Count: {review_count}")
 
         # Yeni bir Product nesnesi oluşturup product_list'e ekleyin
-        product = Product(title, product_price, discounted_price, main_image_url, image_urls, rating_score, review_count)
+        product = Product(title, product_price, discounted_price, main_image_url, image_urls, rating_score,
+                          review_count)
         self.product_list.append(product)
 
         # Herhangi bir return ifadesine gerek yok, çünkü product_list instance variable'ında zaten tutuluyor.
