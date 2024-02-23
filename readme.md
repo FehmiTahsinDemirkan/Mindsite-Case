@@ -63,5 +63,46 @@ pip install -r requirements.txt
 # Run the scraper
 python main.py
 ```
+# Project Overview
+
+## Basic Requirements:
+
+### 1. Asynchronous Handling for Reduced Response Wait Time
+The project implements a concurrent approach by creating a product list, storing URLs in an array, and performing multiple data retrieval operations simultaneously.
+
+### 2. Failure Handling Mechanism for Unresponsive or Blocked Requests
+Crawler.py effectively addresses erroneous URLs and various errors, providing a robust mechanism to overcome challenges.
+
+### 3. Logging for Consistency
+The project maintains a log file (crawler.log) to record regular and consistent log information throughout the code.
+
+### 4. Comprehensive Error Handling for Uninterrupted Runtime
+Errors are handled gracefully, displaying error messages while allowing the project to continue running.
+
+### 5. Data Export in Specified Formats
+Data can be exported in JSON, XLSX, and CSV formats to ensure flexibility in data sharing and analysis.
+
+### 6. Support for Two Specified Retailers
+Two distinct classes for N11 and Trendyol have been created, enabling data parsing according to the respective retailer's structure.
+
+### 7. Support for Two Specified File Formats
+Export operations support JSON, XLSX, and CSV, providing versatility in exporting data files.
+
+## Bonus Requirements:
+
+### 1. Email Notification Module upon Completion
+The email_sender.py module sends a notification email to the embedded email address once the data retrieval process is completed.
+
+### 2. Attach Exported Files to Notification Email
+Exported files are attached to the notification email using the email_sender.py module.
+
+### 3. Beautifully Formatted Table in Email Body
+The `send_email` method in email_sender.py has been updated, and a new method `_create_html_table` has been added to present collected data in a well-formatted HTML table within the email body.
+
+### 4. Support for More Than Two Specified Retailers
+Support for N11 and Trendyol has been extended to accommodate more than two retailers by creating classes for each retailer and parsing data accordingly.
+
+### 5. Support for More Than Two Specified File Formats
+Data export operations support JSON, CSV, and XLSX, providing a wider range of choices for file formats.
 
 
