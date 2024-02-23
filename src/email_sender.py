@@ -34,8 +34,8 @@ class EmailSender:
         message["To"] = receiver_email
         message["Subject"] = subject
 
-        # Attach body to the email
-        message.attach(MIMEText(body, "plain"))
+        # Attach body to the email with content type set to "text/html"
+        message.attach(MIMEText(body, "html"))
 
         # Attach files to the email
         if attachments:
@@ -74,16 +74,27 @@ class EmailSender:
         print(f"Exported Data Mail Sended to: {receiver_email}")
 
     def _create_html_table(self, product_data):
-        # Converts the product data to a Pandas DataFrame, creates an HTML table using tabulate, and returns the formatted HTML table for the email body.
+        # Converts the product data to a Pandas DataFrame, extracts relevant information, creates an HTML table with images, and returns the formatted HTML table for the email body.
+
+        # Extract relevant information from each Product object
+        product_details = []
+        for product in product_data:
+            product_details.append({
+                'Title': product.title,
+                'Price': product.price,
+                'Discounted Price': product.discounted_price,
+                'Main Image URL': f'<img src="{product.main_image_url}" width="100">',
+                'Image URLs': ', '.join([f'<img src="{url}" width="100">' for url in product.image_urls]),
+                'Rating Score': product.rating_score,
+                'Review Count': product.review_count
+            })
 
         # Convert data to a Pandas DataFrame
-        df = pd.DataFrame(product_data)
+        df = pd.DataFrame(product_details)
 
-        # Create an HTML table using tabulate
-        html_table = tabulate(df, headers='keys', tablefmt='html', showindex=False)
-
-        # Clean up HTML tags
-        html_table_cleaned = re.sub(r'<.*?>', '', html_table)
+        # Create an HTML table with images using Pandas
+        html_table = df.to_html(index=False, escape=False, render_links=True, justify='center')
 
         # Return the formatted HTML table for the email body
-        return f"<html><body><p>Below is the exported data in a table format:</p>{html_table_cleaned}</body></html>"
+        return f"<html><body><p>Below are the exported product details:</p>{html_table}</body></html>"
+
