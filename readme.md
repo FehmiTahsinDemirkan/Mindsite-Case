@@ -62,7 +62,7 @@ python main.py
 ```
 # Project Overview
 
-## Basic Requirements:
+## Base Requirements:
 
 ### 1. Asynchronous Handling for Reduced Response Wait Time
 The project implements a concurrent approach by creating a product list, storing URLs in an array, and performing multiple data retrieval operations simultaneously.
