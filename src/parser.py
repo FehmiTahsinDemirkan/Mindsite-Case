@@ -38,7 +38,7 @@ class TrendyolURLParser:
             title_tag = title_tag_zLHJIGKJ[0].strip()
             print(f"Title: {title_tag}")
         else:
-            title_tag = "ikisi de değil"
+            title_tag = "Default Title"  # Set a default title
 
         # Product Price
         price_tag = parsed_html.xpath('//span[@class="FteoagkF"]/text()')
@@ -52,32 +52,41 @@ class TrendyolURLParser:
                 print(f"Price: {price_tag}")
         else:
             price_tag = price_tag[0].strip()
-            print(f"Price: {price_tag}")
 
         # Discounted Price
         discounted_price_tag = soup.select_one('span.prc-org')
         discounted_price = discounted_price_tag.text.strip() if discounted_price_tag else None
-        print(f"Discounted Price: {discounted_price}")
+
+        if discounted_price is not None:
+            print(f"Discounted Price: {discounted_price}")
 
         # Product's main Image URL
         main_image_tag = soup.select_one('img[loading="eager"]')
         main_image_url = main_image_tag['src'] if main_image_tag and 'src' in main_image_tag.attrs else None
-        print(f"Main Image URL: {main_image_url}")
+
+        if main_image_url is not None:
+            print(f"Main Image URL: {main_image_url}")
 
         # Product Image URLs
         image_tags = soup.select('img[loading="lazy"]')
-        image_urls = [img['src'] for img in image_tags]
-        print(f"Image URLs: {image_urls}")
+        image_urls = [img['src'] for img in image_tags] if image_tags else None
+
+        if image_urls is not None:
+            print(f"Image URLs: {image_urls}")
 
         # Product's Rating Count
         rating_score_tag = soup.find('div', class_='rating-line-count')
         rating_score = rating_score_tag.text.strip() if rating_score_tag else None
-        print(f"Rating Score: {rating_score}")
+
+        if rating_score is not None:
+            print(f"Rating Score: {rating_score}")
 
         # Product's Review Count
         review_count_tag = soup.find('span', class_='total-review-count')
         review_count = review_count_tag.text.strip() if review_count_tag else None
-        print(f"Review Count: {review_count}")
+
+        if review_count is not None:
+            print(f"Review Count: {review_count}")
 
         # Create a new Product object and add it to the product_list
         product = Product(title_tag, price_tag, discounted_price, main_image_url, image_urls, rating_score,

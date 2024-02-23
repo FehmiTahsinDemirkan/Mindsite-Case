@@ -88,3 +88,23 @@ aiohttp.client_exceptions.ClientResponseError: 401, message='Unauthorized', url=
 2024-02-23 03:12:47,310 - INFO - Successfully fetched data from https://www.trendyol.com/bargello/709-erkek-50-ml-parfum-edp-oriental-p-41194137?boutiqueId=61&merchantId=138065&sav=true
 2024-02-23 03:15:08,397 - WARNING - The HTTP response timed out: https://www.trendyol.com/bargello/709-erkek-50-ml-parfum-edp-oriental-p-41194137?boutiqueId=61&merchantId=138065&sav=true
 2024-02-23 03:15:08,443 - INFO - Successfully fetched data from https://www.trendyol.com/bargello/709-erkek-50-ml-parfum-edp-oriental-p-41194137?boutiqueId=61&merchantId=138065&sav=true
+2024-02-23 03:20:37,198 - WARNING - The HTTP response timed out: https://www.n11.com/urun/amazfit-active-akilli-saat-amazfit-turkiye-garantili-47510725?magaza=mistore
+2024-02-23 03:20:37,310 - INFO - Successfully fetched data from https://www.n11.com/urun/amazfit-active-akilli-saat-amazfit-turkiye-garantili-47510725?magaza=mistore
+2024-02-23 03:20:37,711 - WARNING - The HTTP response timed out: https://www.n11.com/urun/samsung-galaxy-tab-a9-wi-fi-sm-x210-8-gb-128-gb-11-tablet-45573500?magaza=samsungturkiye
+2024-02-23 03:20:37,938 - INFO - Successfully fetched data from https://www.n11.com/urun/samsung-galaxy-tab-a9-wi-fi-sm-x210-8-gb-128-gb-11-tablet-45573500?magaza=samsungturkiye
+2024-02-23 03:20:38,177 - WARNING - The HTTP response timed out: https://www.n11.com/urun/xiaomi-mi-wifi-pro-300-mbps-24-ghz-sinyal-guclendirici-turkiye-versiyon-1419991?magaza=bittibitiyor
+2024-02-23 03:20:38,216 - INFO - Successfully fetched data from https://www.n11.com/urun/xiaomi-mi-wifi-pro-300-mbps-24-ghz-sinyal-guclendirici-turkiye-versiyon-1419991?magaza=bittibitiyor
+2024-02-23 03:28:34,170 - WARNING - The HTTP response timed out: https://www.trendyol.com/jack-jones/buyuk-beden-kapusonlu-mevsimlik-ceket-vesterbro-p-808158661?boutiqueId=61&merchantId=117483
+2024-02-23 03:28:34,578 - INFO - Successfully fetched data from https://www.trendyol.com/jack-jones/buyuk-beden-kapusonlu-mevsimlik-ceket-vesterbro-p-808158661?boutiqueId=61&merchantId=117483
+2024-02-23 03:31:39,415 - WARNING - The HTTP response timed out: https://www.trendyol.com/jack-jones/buyuk-beden-kapusonlu-mevsimlik-ceket-vesterbro-p-808158661?boutiqueId=61&merchantId=117483
+2024-02-23 03:31:39,459 - INFO - Successfully fetched data from https://www.trendyol.com/jack-jones/buyuk-beden-kapusonlu-mevsimlik-ceket-vesterbro-p-808158661?boutiqueId=61&merchantId=117483
+2024-02-23 03:33:35,136 - WARNING - The HTTP response timed out: https://www.trendyol.com/jack-jones/buyuk-beden-kapusonlu-mevsimlik-ceket-vesterbro-p-808158661?boutiqueId=61&merchantId=117483
+2024-02-23 03:33:35,188 - INFO - Successfully fetched data from https://www.trendyol.com/jack-jones/buyuk-beden-kapusonlu-mevsimlik-ceket-vesterbro-p-808158661?boutiqueId=61&merchantId=117483
+2024-02-23 03:35:54,884 - WARNING - The HTTP response timed out: https://www.trendyol.com/pd/jack-jones/jack-jones-jorcollege-wool-blend-bomber-noos-erkek-lacivert2-ceket-12241559-15-p-808156070?boutiqueId=61&merchantId=170638
+2024-02-23 03:35:54,919 - INFO - Successfully fetched data from https://www.trendyol.com/pd/jack-jones/jack-jones-jorcollege-wool-blend-bomber-noos-erkek-lacivert2-ceket-12241559-15-p-808156070?boutiqueId=61&merchantId=170638
+2024-02-23 03:36:35,502 - WARNING - The HTTP response timed out: https://www.trendyol.com/mango/kruvaze-yun-palto-p-781530437?boutiqueId=61&merchantId=104723&filterOverPriceListings=false&sav=true
+2024-02-23 03:36:35,537 - INFO - Successfully fetched data from https://www.trendyol.com/mango/kruvaze-yun-palto-p-781530437?boutiqueId=61&merchantId=104723&filterOverPriceListings=false&sav=true
+2024-02-23 03:38:18,077 - WARNING - The HTTP response timed out: https://www.trendyol.com/mango/ozel-dikim-yun-palto-p-787876132
+2024-02-23 03:38:18,097 - INFO - Successfully fetched data from https://www.trendyol.com/mango/ozel-dikim-yun-palto-p-787876132
+2024-02-23 03:40:23,783 - WARNING - The HTTP response timed out: https://www.trendyol.com/mango/kahve-rengi-kadin-yetiskin-palto-37005546-p-780998122
+2024-02-23 03:40:23,908 - INFO - Successfully fetched data from https://www.trendyol.com/mango/kahve-rengi-kadin-yetiskin-palto-37005546-p-780998122
