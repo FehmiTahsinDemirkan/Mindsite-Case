@@ -104,5 +104,26 @@ Support for N11 and Trendyol has been extended to accommodate more than two reta
 
 ### 5. Support for More Than Two Specified File Formats
 Data export operations support JSON, CSV, and XLSX, providing a wider range of choices for file formats.
+References
 
+Certainly, here's the bibliography in README format:
 
+---
+
+## References
+
+**Python Documentation:**
+- [Python Official Documentation](https://docs.python.org/3/)
+
+**OpenAI GPT-3.5:**
+- OpenAI. "ChatGPT. Version 3.5." 2023. OpenAI. [https://openai.com/](https://openai.com/).
+
+**Web Crawling and Scraping:**
+- TechTarget. "Crawler." [https://www.techtarget.com/whatis/definition/crawler](https://www.techtarget.com/whatis/definition/crawler)
+- Analytics Vidhya. "Web Scraping with Python - Beginner to Advanced." [https://medium.com/analytics-vidhya/web-scraping-with-python-beginner-to-advanced-10daaca021f3](https://medium.com/analytics-vidhya/web-scraping-with-python-beginner-to-advanced-10daaca021f3)
+- DataCamp. "Web Scraping with Python." [https://www.datacamp.com/tutorial/web-scraping-python-nlp](https://www.datacamp.com/tutorial/web-scraping-python-nlp)
+
+**Selenium with Python:**
+- Barış Teksin. "Selenium Nedir? Python ile Selenium Kullanımı." [https://www.baristeksin.com.tr/selenium-nedir-python-ile-selenium-kullanimi/](https://www.baristeksin.com.tr/selenium-nedir-python-ile-selenium-kullanimi/)
+
+---
