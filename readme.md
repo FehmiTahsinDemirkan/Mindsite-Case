@@ -1,13 +1,9 @@
-
-
-
 # MINDSITE INTERVIEW TASK
 
 The system will take a list of product URLs as input.
 Subsequently, it will expedite the data types for early parsing as specified.
 Following this, upon initiation of the scanning process, it will export the collected data in various file formats.
 Lastly, it can notify users by sending emails, which may also include the gathered data, attached to the email or embedded in the body.
-
 
 
 
@@ -34,6 +30,7 @@ The project includes the following main components:
 - **src/email_sender.py**: Includes the EmailSender class for handling email sending operations.
 - **product.py**: Contains the `Product` class representing a product with its details.
 - **logs/crawler.log**:Log file containing information about the crawling process.
+  
 ## Usage
 
 How to run this project :
@@ -105,7 +102,10 @@ Support for N11 and Trendyol has been extended to accommodate more than two reta
 ### 5. Support for More Than Two Specified File Formats
 Data export operations support JSON, CSV, and XLSX, providing a wider range of choices for file formats.
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> fad05722f8cc3f0b3535cf1b6fbab1241630f138
 
 ---
 
