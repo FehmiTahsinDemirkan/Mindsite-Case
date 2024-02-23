@@ -102,6 +102,9 @@ Support for N11 and Trendyol has been extended to accommodate more than two reta
 ### 5. Support for More Than Two Specified File Formats
 Data export operations support JSON, CSV, and XLSX, providing a wider range of choices for file formats.
 
+### 6. Validating input URLs are in the correct formats:
+Prior to the web crawling process, the program includes a validation step to confirm that input URLs adhere to the standard HTTP or HTTPS format, preventing potential errors during execution.
+
 
 
 ---
