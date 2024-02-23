@@ -104,9 +104,8 @@ Support for N11 and Trendyol has been extended to accommodate more than two reta
 
 ### 5. Support for More Than Two Specified File Formats
 Data export operations support JSON, CSV, and XLSX, providing a wider range of choices for file formats.
-References
 
-Certainly, here's the bibliography in README format:
+
 
 ---
 
