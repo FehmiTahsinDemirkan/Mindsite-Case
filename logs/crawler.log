@@ -23,3 +23,7 @@ Traceback (most recent call last):
 ConnectionResetError: [WinError 10054] Varolan bir baðlantý uzaktaki bir ana bilgisayar tarafýndan zorla kapatýldý
 2024-02-25 12:12:03,968 - WARNING - The HTTP response timed out: https://www.n11.com/urun/goody-kuzu-etli-ve-pirincli-yetiskin-kopek-mamasi-15-kg-277975?magaza=kuzeypazarlama
 2024-02-25 12:12:04,001 - INFO - Successfully fetched data from https://www.n11.com/urun/goody-kuzu-etli-ve-pirincli-yetiskin-kopek-mamasi-15-kg-277975?magaza=kuzeypazarlama
+2024-02-25 12:14:04,850 - WARNING - The HTTP response timed out: https://www.n11.com/urun/lumberjack-quzu-2pr-siyah-kiz-cocuk-kar-botu-29482040?magaza=flo
+2024-02-25 12:14:04,863 - INFO - Successfully fetched data from https://www.n11.com/urun/lumberjack-quzu-2pr-siyah-kiz-cocuk-kar-botu-29482040?magaza=flo
+2024-02-25 12:15:17,481 - WARNING - The HTTP response timed out: https://www.trendyol.com/bargello/erkek-parfum-709-oriental-50-ml-edp-8691841304590-p-32446867?boutiqueId=61&merchantId=117151&sav=true
+2024-02-25 12:15:17,641 - INFO - Successfully fetched data from https://www.trendyol.com/bargello/erkek-parfum-709-oriental-50-ml-edp-8691841304590-p-32446867?boutiqueId=61&merchantId=117151&sav=true
