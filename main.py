@@ -1,8 +1,12 @@
 import asyncio
-from src import parser
+from src.parser import TrendyolURLParser, N11URLParser
 from src.storage import StorageExporter
 from src.email_sender import EmailSender
 from src.crawler import Crawler
+from src import parser
+
+
+
 
 
 # Asynchronous main function

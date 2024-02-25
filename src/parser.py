@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 from src.product import Product
 from lxml import html
 
+
 class TrendyolURLParser:
     """
     Parses product details specifically from Trendyol URLs.

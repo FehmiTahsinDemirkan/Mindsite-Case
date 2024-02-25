@@ -4,16 +4,16 @@ import re
 import os
 import logging
 
-# Check the 'logs' folder
-log_folder = 'logs'
-os.makedirs(log_folder, exist_ok=True)
-
-# Configure the log file
-log_file_path = os.path.join(log_folder, 'crawler.log')
-logging.basicConfig(filename=log_file_path, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
 
 class Crawler:
+    # Check the 'logs' folder
+    log_folder = 'logs'
+    os.makedirs(log_folder, exist_ok=True)
+
+    # Configure the log file
+    log_file_path = os.path.join(log_folder, 'crawler.log')
+    logging.basicConfig(filename=log_file_path, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
     @staticmethod
     async def fetch(url):
         """

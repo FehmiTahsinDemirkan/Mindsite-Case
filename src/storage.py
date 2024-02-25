@@ -61,4 +61,4 @@ class StorageExporter:
             return obj.__dict__
         raise TypeError(f"Object of type {obj.__class__.__name__} is not JSON serializable")
 
-# TODO output işlemlerini tarihine göre kayıt edip her işlem için uniq dosyalar oluştur
+

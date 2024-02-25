@@ -1,0 +1,25 @@
+2024-02-25 12:03:06,052 - WARNING - The HTTP response timed out: https://www.trendyol.com/bargello/erkek-parfum-709-oriental-50-ml-edp-8691841304590-p-32446867?boutiqueId=61&merchantId=117151&sav=true
+2024-02-25 12:03:06,744 - INFO - Successfully fetched data from https://www.trendyol.com/bargello/erkek-parfum-709-oriental-50-ml-edp-8691841304590-p-32446867?boutiqueId=61&merchantId=117151&sav=true
+2024-02-25 12:04:48,687 - WARNING - The HTTP response timed out: https://www.n11.com/urun/lumberjack-quzu-2pr-siyah-kiz-cocuk-kar-botu-29482040?magaza=flo
+2024-02-25 12:04:49,974 - INFO - Successfully fetched data from https://www.n11.com/urun/lumberjack-quzu-2pr-siyah-kiz-cocuk-kar-botu-29482040?magaza=flo
+2024-02-25 12:06:18,324 - WARNING - The HTTP response timed out: https://www.n11.com/urun/lumberjack-quzu-2pr-siyah-kiz-cocuk-kar-botu-29482040?magaza=flo
+2024-02-25 12:06:18,772 - INFO - Successfully fetched data from https://www.n11.com/urun/lumberjack-quzu-2pr-siyah-kiz-cocuk-kar-botu-29482040?magaza=flo
+2024-02-25 12:06:52,553 - ERROR - Error fetching https://www.trendyol.com/bargello/erkek-parfum-709-oriental-50-ml-edp-8691841304590-p-32446867?boutiqueId=61&merchantId=117151&sav=true: Cannot connect to host www.trendyol.com:443 ssl:default [getaddrinfo failed]
+2024-02-25 12:07:09,882 - WARNING - The HTTP response timed out: https://www.n11.com/urun/lumberjack-quzu-2pr-siyah-kiz-cocuk-kar-botu-29482040?magaza=flo
+2024-02-25 12:07:10,151 - INFO - Successfully fetched data from https://www.n11.com/urun/lumberjack-quzu-2pr-siyah-kiz-cocuk-kar-botu-29482040?magaza=flo
+2024-02-25 12:07:44,624 - WARNING - The HTTP response timed out: https://www.n11.com/urun/amazfit-active-akilli-saat-amazfit-turkiye-garantili-47510725?magaza=mistore
+2024-02-25 12:07:44,749 - INFO - Successfully fetched data from https://www.n11.com/urun/amazfit-active-akilli-saat-amazfit-turkiye-garantili-47510725?magaza=mistore
+2024-02-25 12:07:45,919 - WARNING - The HTTP response timed out: https://www.n11.com/urun/goody-kuzu-etli-ve-pirincli-yetiskin-kopek-mamasi-15-kg-277975?magaza=kuzeypazarlama
+2024-02-25 12:07:46,280 - INFO - Successfully fetched data from https://www.n11.com/urun/goody-kuzu-etli-ve-pirincli-yetiskin-kopek-mamasi-15-kg-277975?magaza=kuzeypazarlama
+2024-02-25 12:09:26,927 - WARNING - The HTTP response timed out: https://www.n11.com/urun/amazfit-active-akilli-saat-amazfit-turkiye-garantili-47510725?magaza=mistore
+2024-02-25 12:09:27,004 - INFO - Successfully fetched data from https://www.n11.com/urun/amazfit-active-akilli-saat-amazfit-turkiye-garantili-47510725?magaza=mistore
+2024-02-25 12:10:20,677 - ERROR - Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\fehmi\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\fehmi\AppData\Local\Programs\Python\Python312\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] Varolan bir baðlantý uzaktaki bir ana bilgisayar tarafýndan zorla kapatýldý
+2024-02-25 12:12:03,968 - WARNING - The HTTP response timed out: https://www.n11.com/urun/goody-kuzu-etli-ve-pirincli-yetiskin-kopek-mamasi-15-kg-277975?magaza=kuzeypazarlama
+2024-02-25 12:12:04,001 - INFO - Successfully fetched data from https://www.n11.com/urun/goody-kuzu-etli-ve-pirincli-yetiskin-kopek-mamasi-15-kg-277975?magaza=kuzeypazarlama

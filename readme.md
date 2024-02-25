@@ -51,14 +51,11 @@ python -m venv venv
 # Activate the virtual environment (Windows)
 venv\Scripts\activate
 
-# Activate the virtual environment (Unix/MacOS)
-source venv/bin/activate
-
 # Install dependencies
 pip install -r requirements.txt
 
 # Run the scraper
-python main.py
+python.exe main.py
 ```
 # Project Overview
 
