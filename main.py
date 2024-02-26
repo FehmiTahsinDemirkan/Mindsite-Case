@@ -1,12 +1,8 @@
 import asyncio
-from src.parser import TrendyolURLParser, N11URLParser
 from src.storage import StorageExporter
 from src.email_sender import EmailSender
 from src.crawler import Crawler
 from src import parser
-
-
-
 
 
 # Asynchronous main function
@@ -62,7 +58,7 @@ async def main():
                                smtp_server="smtp.gmail.com",
                                smtp_port=587)
 
-    # Send an email to notify the user when the crawl process is successfully completed
+    # Send an Email to notify the user when the crawl process is successfully completed
     await email_sender.send_crawl_success_email(receiver_email="fehmitahsindemirkan@gmail.com")
 
     # Send an email with exported data to the user's provided email address
