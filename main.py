@@ -59,7 +59,7 @@ async def main():
                                smtp_port=587)
 
     # Send an Email to notify the user when the crawl process is successfully completed
-    await email_sender.send_crawl_success_email(receiver_email="fehmitahsindemirkan@gmail.com")
+    await email_sender.send_crawl_success_email(receiver_email="test@gmail.com")
 
     # Send an email with exported data to the user's provided email address
     await email_sender.send_exported_data_email(receiver_email=user_email, product_data=all_products,
