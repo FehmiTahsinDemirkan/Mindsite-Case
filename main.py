@@ -53,8 +53,8 @@ async def main():
     StorageExporter.export_excel(all_products, 'output.xlsx', append=True)
 
     # Create an instance of the EmailSender class with SMTP details
-    email_sender = EmailSender(sender_email="dfehmitahsin@gmail.com",
-                               sender_password="flko lpqg kzdn tioq",
+    email_sender = EmailSender(sender_email="youremail@gmail.com",
+                               sender_password="your password",
                                smtp_server="smtp.gmail.com",
                                smtp_port=587)
 
